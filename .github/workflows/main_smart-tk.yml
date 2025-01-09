@@ -44,4 +44,3 @@ jobs:
           app-name: 'smart-tk'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2DF97007F658468A8995F581D05FE971 }}
-          package: back
