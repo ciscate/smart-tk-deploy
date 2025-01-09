@@ -160,9 +160,8 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+    os.path.join(BASE_DIR, 'static'),  # Directorio adicional para archivos estáticos
 ]
 
 STATIC_URL = '/static/'  # Asegúrate de que tenga un prefijo válido
