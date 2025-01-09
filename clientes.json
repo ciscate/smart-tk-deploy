@@ -1,0 +1,4120 @@
+{
+    "Lote_0": {
+        "cantidad_clientes": 35,
+        "clientes": {
+            "RODRIGUEZ JOSE LUIS": {
+                "razon_social": "RODRIGUEZ JOSE LUIS",
+                "cuit_acceso": "20-08442398-0",
+                "cuit_empresa": "20-08442398-0",
+                "clave_afip": "Mici2021350",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "DEINSA S.A.": {
+                "razon_social": "DEINSA S.A.",
+                "cuit_acceso": "27-21506800-0",
+                "cuit_empresa": "30-71290790-4",
+                "clave_afip": "Bern5068003",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "PETRILLI FABRIZIA ARIADNA": {
+                "razon_social": "PETRILLI FABRIZIA ARIADNA",
+                "cuit_acceso": "27-26597060-0",
+                "cuit_empresa": "27-26597060-0",
+                "clave_afip": "Fabrizia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "MARCARIAN MARIA SOFIA": {
+                "razon_social": "MARCARIAN MARIA SOFIA",
+                "cuit_acceso": "27-27627723-0",
+                "cuit_empresa": "27-27627723-0",
+                "clave_afip": "SofiMar2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "LOS PENEDOS S.A": {
+                "razon_social": "LOS PENEDOS S.A",
+                "cuit_acceso": "20-08442398-0",
+                "cuit_empresa": "30-70860157-4",
+                "clave_afip": "Mici2021350",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "BARRUTTI ALEJANDRA BELEN": {
+                "razon_social": "BARRUTTI ALEJANDRA BELEN",
+                "cuit_acceso": "27-36088785-0",
+                "cuit_empresa": "24-21583885-0",
+                "clave_afip": "ALEjandra2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "Wee Gee s.a": {
+                "razon_social": "Wee Gee s.a",
+                "cuit_acceso": "20-12952572-0",
+                "cuit_empresa": "30-70933559-2",
+                "clave_afip": "Capi6552024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "ALS ARGENTINA SA": {
+                "razon_social": "ALS ARGENTINA SA",
+                "cuit_acceso": "20-30591892-0",
+                "cuit_empresa": "33-68373762-9",
+                "clave_afip": "Alsgl2024@",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "MILAGROS MENDEZ": {
+                "razon_social": "MILAGROS MENDEZ",
+                "cuit_acceso": "27-41571559-0",
+                "cuit_empresa": "27-41571559-0",
+                "clave_afip": "032503Mendez",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "AURA VELAZCO DE LOPEZ": {
+                "razon_social": "AURA VELAZCO DE LOPEZ",
+                "cuit_acceso": "27-95823270-0",
+                "cuit_empresa": "27-95823270-0",
+                "clave_afip": "Gadawa2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "BERNARDINI, KARINA EDITH (DEINSA)": {
+                "razon_social": "BERNARDINI, KARINA EDITH (DEINSA)",
+                "cuit_acceso": "27-21506800-0",
+                "cuit_empresa": "27-21506800-0",
+                "clave_afip": "Bern5068003",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "VACCHIANO GERARDO GASTON": {
+                "razon_social": "VACCHIANO GERARDO GASTON",
+                "cuit_acceso": "20-29379748-0",
+                "cuit_empresa": "20-29379748-0",
+                "clave_afip": "Gerardo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "GREGORIO MARIA JOSE": {
+                "razon_social": "GREGORIO MARIA JOSE",
+                "cuit_acceso": "27-27045699-0",
+                "cuit_empresa": "27-27045699-0",
+                "clave_afip": "Gregorio2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "DE NUCCI, MARIA MARTHA": {
+                "razon_social": "DE NUCCI, MARIA MARTHA",
+                "cuit_acceso": "27-16940590-0",
+                "cuit_empresa": "27-16940590-0",
+                "clave_afip": "Playa01Bosque02",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "RODRIGUEZ JOSE LUIS Y RODRIGUEZ RAFAEL S.H.": {
+                "razon_social": "RODRIGUEZ JOSE LUIS Y RODRIGUEZ RAFAEL S.H.",
+                "cuit_acceso": "20-93800000-0",
+                "cuit_empresa": "30-57639338-1",
+                "clave_afip": "Rafael8004",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "ROMANO ESTEBAN EDUARDO": {
+                "razon_social": "ROMANO ESTEBAN EDUARDO",
+                "cuit_acceso": "20-18439670-0",
+                "cuit_empresa": "20-18439670-0",
+                "clave_afip": "9670Roesed24",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "CAGGIANO FERNANDO": {
+                "razon_social": "CAGGIANO FERNANDO",
+                "cuit_acceso": "20-45456362-0",
+                "cuit_empresa": "20-45456362-0",
+                "clave_afip": "Caggianofernandoivan0408",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "VOLPER ARIEL": {
+                "razon_social": "VOLPER ARIEL",
+                "cuit_acceso": "20-29258119-0",
+                "cuit_empresa": "20-29258119-0",
+                "clave_afip": "TotoEze2960",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "SUAREZ DAVID DANIEL": {
+                "razon_social": "SUAREZ DAVID DANIEL",
+                "cuit_acceso": "20-14034138-0",
+                "cuit_empresa": "20-14034138-0",
+                "clave_afip": "SUarez41382",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "MRKVA LEONARDO MARCELO": {
+                "razon_social": "MRKVA LEONARDO MARCELO",
+                "cuit_acceso": "20-21714390-0",
+                "cuit_empresa": "20-21714390-0",
+                "clave_afip": "Marcelomrkva2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "RODRIGUEZ BACCHI ASOCIADOS": {
+                "razon_social": "RODRIGUEZ BACCHI ASOCIADOS",
+                "cuit_acceso": "27-17770150-0",
+                "cuit_empresa": "30-68867768-4",
+                "clave_afip": "Rodriguez2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "RODRIGUEZ NORMA GRACIELA": {
+                "razon_social": "RODRIGUEZ NORMA GRACIELA",
+                "cuit_acceso": "27-17770150-0",
+                "cuit_empresa": "27-17770150-0",
+                "clave_afip": "Rodriguez2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "ROSA LUCIANO GABRIEL": {
+                "razon_social": "ROSA LUCIANO GABRIEL",
+                "cuit_acceso": "20-43325497-0",
+                "cuit_empresa": "20-43325497-0",
+                "clave_afip": "LucianoRosa2105",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "VACCHIANO MARIO (ROCCANAIOLA)": {
+                "razon_social": "VACCHIANO MARIO (ROCCANAIOLA)",
+                "cuit_acceso": "20-10092918-0",
+                "cuit_empresa": "20-10092918-0",
+                "clave_afip": "Rocc20242024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "JORGE MAURO": {
+                "razon_social": "JORGE MAURO",
+                "cuit_acceso": "20-37537286-0",
+                "cuit_empresa": "20-37537286-0",
+                "clave_afip": "Adara15102023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "AMATO HUGO ANDRES": {
+                "razon_social": "AMATO HUGO ANDRES",
+                "cuit_acceso": "20-32573731-0",
+                "cuit_empresa": "20-32573731-0",
+                "clave_afip": "AMato03257",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "SGF GLOBAL": {
+                "razon_social": "SGF GLOBAL",
+                "cuit_acceso": "27-95823270-0",
+                "cuit_empresa": "33-71633335-9",
+                "clave_afip": "Gadawa2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "KUHN MONICA": {
+                "razon_social": "KUHN MONICA",
+                "cuit_acceso": "27-23951308-0",
+                "cuit_empresa": "27-23951308-0",
+                "clave_afip": "MARina0510",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "MEDINA YESICA": {
+                "razon_social": "MEDINA YESICA",
+                "cuit_acceso": "27-33379520-0",
+                "cuit_empresa": "27-33379520-0",
+                "clave_afip": "Yesica2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "ROCCANAIOLA S.A.": {
+                "razon_social": "ROCCANAIOLA S.A.",
+                "cuit_acceso": "20-10092918-0",
+                "cuit_empresa": "30-70823409-1",
+                "clave_afip": "Rocc20242024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "RODRIGUEZ RAFAEL": {
+                "razon_social": "RODRIGUEZ RAFAEL",
+                "cuit_acceso": "20-93800000-0",
+                "cuit_empresa": "20-93800000-0",
+                "clave_afip": "Rafael8004",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "RAMOS MARIA EVA": {
+                "razon_social": "RAMOS MARIA EVA",
+                "cuit_acceso": "27-11623402-0",
+                "cuit_empresa": "27-11623402-0",
+                "clave_afip": "Alter20232023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "WHELAN JAVIER SILVIO": {
+                "razon_social": "WHELAN JAVIER SILVIO",
+                "cuit_acceso": "20-16754441-0",
+                "cuit_empresa": "20-16754441-0",
+                "clave_afip": "jAVI2016ER",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "ALTER WOLF": {
+                "razon_social": "ALTER WOLF",
+                "cuit_acceso": "27-11623402-0",
+                "cuit_empresa": "30-71169042-1",
+                "clave_afip": "Alter20242024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            },
+            "LOGISTICA TRANSPALLETS SAS": {
+                "razon_social": "LOGISTICA TRANSPALLETS SAS",
+                "cuit_acceso": "20-30716440-0",
+                "cuit_empresa": "30-71627646-1",
+                "clave_afip": "Sarita2224",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "0"
+            }
+        }
+    },
+    "Lote_1": {
+        "cantidad_clientes": 35,
+        "clientes": {
+            "VAERNET ANA MARIA": {
+                "razon_social": "VAERNET ANA MARIA",
+                "cuit_acceso": "27-14957318-1",
+                "cuit_empresa": "27-14957318-1",
+                "clave_afip": "Vaernet2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "PRIETO GERARDO": {
+                "razon_social": "PRIETO GERARDO",
+                "cuit_acceso": "20-14441464-1",
+                "cuit_empresa": "20-14441464-1",
+                "clave_afip": "Garyprie45",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "Gonzalez Graciela": {
+                "razon_social": "Gonzalez Graciela",
+                "cuit_acceso": "27-17147831-1",
+                "cuit_empresa": "27-17147831-1",
+                "clave_afip": "Grac29011965",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "HOTEL SAHARA": {
+                "razon_social": "HOTEL SAHARA",
+                "cuit_acceso": "20-14516437-1",
+                "cuit_empresa": "30-71587401-2",
+                "clave_afip": "Sahara2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "BOGGIO ANDREA MARIA CRISTIN": {
+                "razon_social": "BOGGIO ANDREA MARIA CRISTIN",
+                "cuit_acceso": "27-14317321-1",
+                "cuit_empresa": "27-14317321-1",
+                "clave_afip": "AMCboggio1960",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "BALBI CARLOS ALBERTO (SUCESION)": {
+                "razon_social": "BALBI CARLOS ALBERTO (SUCESION)",
+                "cuit_acceso": "27-04756822-1",
+                "cuit_empresa": "20-05186649-6",
+                "clave_afip": "Graciela1943",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "NORDENSTROM MIRIAM": {
+                "razon_social": "NORDENSTROM MIRIAM",
+                "cuit_acceso": "27-27658493-1",
+                "cuit_empresa": "27-27658493-1",
+                "clave_afip": "Laucha1722",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "TYRZEN S.A.": {
+                "razon_social": "TYRZEN S.A.",
+                "cuit_acceso": "20-37332445-1",
+                "cuit_empresa": "30-71823922-9",
+                "clave_afip": "Greenova2024**",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MICIELI MARTIN RODRIGO": {
+                "razon_social": "MICIELI MARTIN RODRIGO",
+                "cuit_acceso": "20-22994866-1",
+                "cuit_empresa": "20-22994866-1",
+                "clave_afip": "Martin2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "BENEDETTI ELENA": {
+                "razon_social": "BENEDETTI ELENA",
+                "cuit_acceso": "27-03761942-1",
+                "cuit_empresa": "27-03761942-1",
+                "clave_afip": "Elena619425",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MINGO ARIEL": {
+                "razon_social": "MINGO ARIEL",
+                "cuit_acceso": "20-26394391-1",
+                "cuit_empresa": "20-26394391-1",
+                "clave_afip": "2024Quillinzo5",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "DE NUCCI, JORGE BERNABE": {
+                "razon_social": "DE NUCCI, JORGE BERNABE",
+                "cuit_acceso": "20-04118509-1",
+                "cuit_empresa": "20-04118509-1",
+                "clave_afip": "Surotomi1970",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "GREENOVA S.A.": {
+                "razon_social": "GREENOVA S.A.",
+                "cuit_acceso": "20-25396305-1",
+                "cuit_empresa": "30-71824055-3",
+                "clave_afip": "PAblo38595931",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "CAO NATALIA": {
+                "razon_social": "CAO NATALIA",
+                "cuit_acceso": "27-25967402-1",
+                "cuit_empresa": "27-25967402-1",
+                "clave_afip": "Caonat2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "SUSANA RODRIGUEZ": {
+                "razon_social": "SUSANA RODRIGUEZ",
+                "cuit_acceso": "27-20733414-1",
+                "cuit_empresa": "27-20733414-1",
+                "clave_afip": "Susana2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "RIVAS DANIELA": {
+                "razon_social": "RIVAS DANIELA",
+                "cuit_acceso": "27-27491004-1",
+                "cuit_empresa": "27-27491004-1",
+                "clave_afip": "Daniela*1979",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "CAMILA FARIAS": {
+                "razon_social": "CAMILA FARIAS",
+                "cuit_acceso": "27-42409713-1",
+                "cuit_empresa": "27-42409713-1",
+                "clave_afip": "Lcsf16081103",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MORENO MARIA JOSEFINA": {
+                "razon_social": "MORENO MARIA JOSEFINA",
+                "cuit_acceso": "27-06386887-1",
+                "cuit_empresa": "27-06386887-1",
+                "clave_afip": "MORENOj2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "ANGELICA MORENA": {
+                "razon_social": "ANGELICA MORENA",
+                "cuit_acceso": "27-43594358-1",
+                "cuit_empresa": "27-43594358-1",
+                "clave_afip": "Lucky272727",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MIS RESTO SAS": {
+                "razon_social": "MIS RESTO SAS",
+                "cuit_acceso": "27-23903539-1",
+                "cuit_empresa": "30-71608800-2",
+                "clave_afip": "Maria2023+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "BONATO PABLO ALBERTO": {
+                "razon_social": "BONATO PABLO ALBERTO",
+                "cuit_acceso": "20-12857100-1",
+                "cuit_empresa": "20-12857100-1",
+                "clave_afip": "PabloB1205",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "VICO MEDINA KEILA YARA": {
+                "razon_social": "VICO MEDINA KEILA YARA",
+                "cuit_acceso": "27-45625041-1",
+                "cuit_empresa": "27-45625041-1",
+                "clave_afip": "Keila2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "DANIELE VIVIANA MARCELA": {
+                "razon_social": "DANIELE VIVIANA MARCELA",
+                "cuit_acceso": "27-23544127-1",
+                "cuit_empresa": "27-23544127-1",
+                "clave_afip": "Miguelvivi1124",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "GAMIZO DIEGO SEBASTIAN": {
+                "razon_social": "GAMIZO DIEGO SEBASTIAN",
+                "cuit_acceso": "20-37332445-1",
+                "cuit_empresa": "20-37332445-1",
+                "clave_afip": "Gmisogino2708",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MAIRA ELISABET RODRIGUEZ": {
+                "razon_social": "MAIRA ELISABET RODRIGUEZ",
+                "cuit_acceso": "27-39723880-1",
+                "cuit_empresa": "27-39723880-1",
+                "clave_afip": "121996Maira",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "YOHANA ZERDA": {
+                "razon_social": "YOHANA ZERDA",
+                "cuit_acceso": "27-36713421-1",
+                "cuit_empresa": "27-36713421-1",
+                "clave_afip": "Celeste2345",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "THWAITES ESTELA SUSANA": {
+                "razon_social": "THWAITES ESTELA SUSANA",
+                "cuit_acceso": "27-04756822-1",
+                "cuit_empresa": "27-04756822-1",
+                "clave_afip": "Graciela1943",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "RIO DEL BERMEJO S.A.": {
+                "razon_social": "RIO DEL BERMEJO S.A.",
+                "cuit_acceso": "20-10358199-1",
+                "cuit_empresa": "33-70870554-9",
+                "clave_afip": "Barros80041",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "CALCIA ADRIAN ALBERTO": {
+                "razon_social": "CALCIA ADRIAN ALBERTO",
+                "cuit_acceso": "20-16917662-1",
+                "cuit_empresa": "20-16917662-1",
+                "clave_afip": "Calcia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "ANGELICA AZUL": {
+                "razon_social": "ANGELICA AZUL",
+                "cuit_acceso": "27-40345966-1",
+                "cuit_empresa": "27-40345966-1",
+                "clave_afip": "Mono121213",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "MARCARIAN MARIA ELISA": {
+                "razon_social": "MARCARIAN MARIA ELISA",
+                "cuit_acceso": "27-23903539-1",
+                "cuit_empresa": "27-23903539-1",
+                "clave_afip": "Maria2023+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "BRAVI DANIEL ANTONIO": {
+                "razon_social": "BRAVI DANIEL ANTONIO",
+                "cuit_acceso": "20-12552230-1",
+                "cuit_empresa": "20-12552230-1",
+                "clave_afip": "Bravi602024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "KRET SANDRA LILIANA LUCIA": {
+                "razon_social": "KRET SANDRA LILIANA LUCIA",
+                "cuit_acceso": "27-17617694-1",
+                "cuit_empresa": null,
+                "clave_afip": "Sancret2024",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "GUSTAVO ZALAZAR": {
+                "razon_social": "GUSTAVO ZALAZAR",
+                "cuit_acceso": "20-14516437-1",
+                "cuit_empresa": "20-14516437-1",
+                "clave_afip": "Sahara2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            },
+            "SUAREZ GUSTAVO MARTIN": {
+                "razon_social": "SUAREZ GUSTAVO MARTIN",
+                "cuit_acceso": "20-17292212-1",
+                "cuit_empresa": "20-17292212-1",
+                "clave_afip": "Gustavo008",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "1"
+            }
+        }
+    },
+    "Lote_2": {
+        "cantidad_clientes": 28,
+        "clientes": {
+            "SEMPAI S.A. (Ex TUNER)": {
+                "razon_social": "SEMPAI S.A. (Ex TUNER)",
+                "cuit_acceso": "20-14751024-2",
+                "cuit_empresa": "30-70831844-9",
+                "clave_afip": "Denucci2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "FERREYRA MATIAS": {
+                "razon_social": "FERREYRA MATIAS",
+                "cuit_acceso": "20-39547540-2",
+                "cuit_empresa": "20-39547540-2",
+                "clave_afip": "Matias 1234",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "POLANZAN MONICA CRISTINA": {
+                "razon_social": "POLANZAN MONICA CRISTINA",
+                "cuit_acceso": "27-10314660-2",
+                "cuit_empresa": "27-10314660-2",
+                "clave_afip": "pOLANZAN20229",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "WELLNESS ENTER SAS": {
+                "razon_social": "WELLNESS ENTER SAS",
+                "cuit_acceso": "27-16844053-2",
+                "cuit_empresa": "30-71604502-8",
+                "clave_afip": "Marcela2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "BRENZONI PABLO": {
+                "razon_social": "BRENZONI PABLO",
+                "cuit_acceso": "20-31096430-2",
+                "cuit_empresa": "20-31096430-2",
+                "clave_afip": "Brenzoni2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "REPUESTOS MORENO S.H. / REPUESTOS MORENO DE DAVID GRECO Y NELIDA SUSANA PAGANO S H": {
+                "razon_social": "REPUESTOS MORENO S.H. / REPUESTOS MORENO DE DAVID GRECO Y NELIDA SUSANA PAGANO S H",
+                "cuit_acceso": "20-15204978-2",
+                "cuit_empresa": "30-55099129-9",
+                "clave_afip": "Repuestos2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "WEST TEAM S.A": {
+                "razon_social": "WEST TEAM S.A",
+                "cuit_acceso": "20-11062170-2",
+                "cuit_empresa": "33-71226213-9",
+                "clave_afip": "JUan195320",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "GEB INVERSIONES SAS": {
+                "razon_social": "GEB INVERSIONES SAS",
+                "cuit_acceso": "20-11062170-2",
+                "cuit_empresa": "30-71594232-8",
+                "clave_afip": "JUan195320",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "DE NUCCI EDUARDO JORGE": {
+                "razon_social": "DE NUCCI EDUARDO JORGE",
+                "cuit_acceso": "20-14751024-2",
+                "cuit_empresa": "20-14751024-2",
+                "clave_afip": "Denucci2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "LUCIANA MALDONADO": {
+                "razon_social": "LUCIANA MALDONADO",
+                "cuit_acceso": "27-45005720-2",
+                "cuit_empresa": "27-45005720-2",
+                "clave_afip": "Mifamilia12",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "HERNANZ Y LOBO ANGEL": {
+                "razon_social": "HERNANZ Y LOBO ANGEL",
+                "cuit_acceso": "20-94106923-2",
+                "cuit_empresa": "20-94106923-2",
+                "clave_afip": "Angel20202",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "LAMELA JULIETA": {
+                "razon_social": "LAMELA JULIETA",
+                "cuit_acceso": "27-36929521-2",
+                "cuit_empresa": "27-36929521-2",
+                "clave_afip": "4zkuk_QudF6C32024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "ROCA EUGENIO LUIS": {
+                "razon_social": "ROCA EUGENIO LUIS",
+                "cuit_acceso": "20-14857425-2",
+                "cuit_empresa": "20-14857425-2",
+                "clave_afip": "Redgu808639",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "HUMBERTO 2887 SA": {
+                "razon_social": "HUMBERTO 2887 SA",
+                "cuit_acceso": "20-14751024-2",
+                "cuit_empresa": "30-71869373-6",
+                "clave_afip": "Denucci2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "SARRATE, MARCELA ALEJANDRA (ESPOSA GERTEL)": {
+                "razon_social": "SARRATE, MARCELA ALEJANDRA (ESPOSA GERTEL)",
+                "cuit_acceso": "27-16844053-2",
+                "cuit_empresa": "27-16844053-2",
+                "clave_afip": "Marcela2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "ERCOLI JUAN CARLOS": {
+                "razon_social": "ERCOLI JUAN CARLOS",
+                "cuit_acceso": "20-11062170-2",
+                "cuit_empresa": "20-11062170-2",
+                "clave_afip": "JUan195320",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "REDGUARD S.A": {
+                "razon_social": "REDGUARD S.A",
+                "cuit_acceso": "20-14857425-2",
+                "cuit_empresa": "30-70862763-8",
+                "clave_afip": "Redgu808639",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "VIDITEC S.A.": {
+                "razon_social": "VIDITEC S.A.",
+                "cuit_acceso": "20-14751024-2",
+                "cuit_empresa": "30-59015101-3",
+                "clave_afip": "Denucci2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "HERNANDEZ NORMA": {
+                "razon_social": "HERNANDEZ NORMA",
+                "cuit_acceso": "27-05792449-2",
+                "cuit_empresa": "27-05792449-2",
+                "clave_afip": "2023*Hernandez1",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "ZINONI MIGUEL ANGEL": {
+                "razon_social": "ZINONI MIGUEL ANGEL",
+                "cuit_acceso": "20-18498717-2",
+                "cuit_empresa": "20-18498717-2",
+                "clave_afip": "Gonzalo2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "AMTRADE S.R.L.": {
+                "razon_social": "AMTRADE S.R.L.",
+                "cuit_acceso": "20-94027378-2",
+                "cuit_empresa": "30-70908285-6",
+                "clave_afip": "Myles-2025",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "GROSSO DORA": {
+                "razon_social": "GROSSO DORA",
+                "cuit_acceso": "27-03768610-2",
+                "cuit_empresa": "27-03768610-2",
+                "clave_afip": "Grosso2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "FIDEICOMISO ALHUEN": {
+                "razon_social": "FIDEICOMISO ALHUEN",
+                "cuit_acceso": "20-37678583-2",
+                "cuit_empresa": "33-71872853-9",
+                "clave_afip": "Palapala123",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "LOBOS FRANCO": {
+                "razon_social": "LOBOS FRANCO",
+                "cuit_acceso": "20-37678583-2",
+                "cuit_empresa": "20-37678583-2",
+                "clave_afip": "Palapala123",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "Centro de Desarrollo y Autogestión DyA": {
+                "razon_social": "Centro de Desarrollo y Autogestión DyA",
+                "cuit_acceso": "27-95551401-2",
+                "cuit_empresa": "30-71578310-6",
+                "clave_afip": "Joacopapa51",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "RODRIGUEZ JORGE": {
+                "razon_social": "RODRIGUEZ JORGE",
+                "cuit_acceso": "20-28697207-2",
+                "cuit_empresa": "20-28697207-2",
+                "clave_afip": "Adrian@20201",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            },
+            "LEDESMA GARCIA FACUNDO": {
+                "razon_social": "LEDESMA GARCIA FACUNDO",
+                "cuit_acceso": "20-42100223-2",
+                "cuit_empresa": "20-42100223-2",
+                "clave_afip": "POnicia1945",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "2"
+            },
+            "SS FAM S.A.": {
+                "razon_social": "SS FAM S.A.",
+                "cuit_acceso": "20-25512190-2",
+                "cuit_empresa": "30-71492256-0",
+                "clave_afip": "Msecch2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "2"
+            }
+        }
+    },
+    "Lote_3": {
+        "cantidad_clientes": 40,
+        "clientes": {
+            "PAOLINO MIRIAN ELISABET": {
+                "razon_social": "PAOLINO MIRIAN ELISABET",
+                "cuit_acceso": "27-16514243-3",
+                "cuit_empresa": "27-16514243-3",
+                "clave_afip": "Mpaolino2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "BONATO HUGO JUAN SEBASTIAN": {
+                "razon_social": "BONATO HUGO JUAN SEBASTIAN",
+                "cuit_acceso": "20-11267656-3",
+                "cuit_empresa": "20-11267656-3",
+                "clave_afip": "Hugo082024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "KLOSS JORGE": {
+                "razon_social": "KLOSS JORGE",
+                "cuit_acceso": "20-21017422-3",
+                "cuit_empresa": "20-21017422-3",
+                "clave_afip": "Kloss210212",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "PEREDA OSCAR": {
+                "razon_social": "PEREDA OSCAR",
+                "cuit_acceso": "20-18579238-3",
+                "cuit_empresa": "20-18579238-3",
+                "clave_afip": "Conejo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ALGEBRA INDUMENTARIA SA": {
+                "razon_social": "ALGEBRA INDUMENTARIA SA",
+                "cuit_acceso": "20-28395536-3",
+                "cuit_empresa": "30-71873690-7",
+                "clave_afip": "Resmeni25472547",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "SMARIO JORGE OMAR": {
+                "razon_social": "SMARIO JORGE OMAR",
+                "cuit_acceso": "20-11857159-3",
+                "cuit_empresa": "20-11857159-3",
+                "clave_afip": "Smario2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ALVAREZ ANAHI VERONICA": {
+                "razon_social": "ALVAREZ ANAHI VERONICA",
+                "cuit_acceso": "27-24905918-3",
+                "cuit_empresa": "27-24905918-3",
+                "clave_afip": "Lanaa905918",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "VALLEJOS LEILA": {
+                "razon_social": "VALLEJOS LEILA",
+                "cuit_acceso": "27-40943635-3",
+                "cuit_empresa": "27-40943635-3",
+                "clave_afip": "Vallejos26",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ABANO S.A.": {
+                "razon_social": "ABANO S.A.",
+                "cuit_acceso": "20-24963676-3",
+                "cuit_empresa": "30-71791131-4",
+                "clave_afip": "Massamax2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "RODRIGUEZ M.FERNANDA": {
+                "razon_social": "RODRIGUEZ M.FERNANDA",
+                "cuit_acceso": "27-21442621-3",
+                "cuit_empresa": "27-21442621-3",
+                "clave_afip": "FErnanda2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ARGENPUR SA": {
+                "razon_social": "ARGENPUR SA",
+                "cuit_acceso": "20-11857159-3",
+                "cuit_empresa": "30-70778004-1",
+                "clave_afip": "Smario2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "DE MICEU MARIA JOSE": {
+                "razon_social": "DE MICEU MARIA JOSE",
+                "cuit_acceso": "27-14516108-3",
+                "cuit_empresa": "27-14516108-3",
+                "clave_afip": "MJDemiceu1961",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "3 ELEMENTOS": {
+                "razon_social": "3 ELEMENTOS",
+                "cuit_acceso": "27-27202265-3",
+                "cuit_empresa": "30-71790688-4",
+                "clave_afip": "Solsanti23",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "CALCIA JUAN PABLO": {
+                "razon_social": "CALCIA JUAN PABLO",
+                "cuit_acceso": "20-35536051-3",
+                "cuit_empresa": "20-35536051-3",
+                "clave_afip": "Calciajuan2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "3"
+            },
+            "CONEXTUBE S.A.": {
+                "razon_social": "CONEXTUBE S.A.",
+                "cuit_acceso": "20-11267656-3",
+                "cuit_empresa": "30-65503724-8",
+                "clave_afip": "Hugo082024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "BABASSO SOFIA": {
+                "razon_social": "BABASSO SOFIA",
+                "cuit_acceso": "27-39210028-3",
+                "cuit_empresa": "27-39210028-3",
+                "clave_afip": "Escaner2117",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ERCOLI ARIEL EDGARDO": {
+                "razon_social": "ERCOLI ARIEL EDGARDO",
+                "cuit_acceso": "20-29975724-3",
+                "cuit_empresa": "20-29975724-3",
+                "clave_afip": "Domingo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "VIDELA NATALIA": {
+                "razon_social": "VIDELA NATALIA",
+                "cuit_acceso": "27-27202265-3",
+                "cuit_empresa": "27-27202265-3",
+                "clave_afip": "Solsanti23",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "CHAILE VALENTIN DALMIRO": {
+                "razon_social": "CHAILE VALENTIN DALMIRO",
+                "cuit_acceso": "20-11641327-3",
+                "cuit_empresa": "20-11641327-3",
+                "clave_afip": "Chaile2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "JAUREGUI CECILIA": {
+                "razon_social": "JAUREGUI CECILIA",
+                "cuit_acceso": "27-28808440-3",
+                "cuit_empresa": "27-28808440-3",
+                "clave_afip": "Cecilia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "FEIERSTEIN MIJAN EVA": {
+                "razon_social": "FEIERSTEIN MIJAN EVA",
+                "cuit_acceso": "27-23103290-3",
+                "cuit_empresa": "27-23103290-3",
+                "clave_afip": "Mijaleva2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "POLWER SRL": {
+                "razon_social": "POLWER SRL",
+                "cuit_acceso": "20-11857159-3",
+                "cuit_empresa": "30-61582099-3",
+                "clave_afip": "Smario2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "MASSA MAXIMILIANO": {
+                "razon_social": "MASSA MAXIMILIANO",
+                "cuit_acceso": "20-24963676-3",
+                "cuit_empresa": "20-24963676-3",
+                "clave_afip": "Massamax2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ALVES VALERIA": {
+                "razon_social": "ALVES VALERIA",
+                "cuit_acceso": "27-31598910-3",
+                "cuit_empresa": "27-31598910-3",
+                "clave_afip": "Franco2003",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "BRENZONI LUCIANA CECILIA": {
+                "razon_social": "BRENZONI LUCIANA CECILIA",
+                "cuit_acceso": "27-32033040-3",
+                "cuit_empresa": "27-32033040-3",
+                "clave_afip": "Bren304064",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "PAGNONE GRACIELA KARINA": {
+                "razon_social": "PAGNONE GRACIELA KARINA",
+                "cuit_acceso": "27-22909194-3",
+                "cuit_empresa": "27-22909194-3",
+                "clave_afip": "Karina2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ANDREA DURANDAL": {
+                "razon_social": "ANDREA DURANDAL",
+                "cuit_acceso": "27-37259653-3",
+                "cuit_empresa": "27-37259653-3",
+                "clave_afip": "Anduran0501#",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ABUELAFIA ELIDA NOEMI": {
+                "razon_social": "ABUELAFIA ELIDA NOEMI",
+                "cuit_acceso": "27-05217937-3",
+                "cuit_empresa": "27-05217937-3",
+                "clave_afip": "Abuelafia20214",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "INDUSTRIAS SAS TOMURI": {
+                "razon_social": "INDUSTRIAS SAS TOMURI",
+                "cuit_acceso": "20-29975724-3",
+                "cuit_empresa": "30-71696656-5",
+                "clave_afip": "Domingo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ARACUP S.A.": {
+                "razon_social": "ARACUP S.A.",
+                "cuit_acceso": "20-11267656-3",
+                "cuit_empresa": "30-71550906-3",
+                "clave_afip": "Hugo082024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "ZINONI JULIO GUSTAVO": {
+                "razon_social": "ZINONI JULIO GUSTAVO",
+                "cuit_acceso": "20-17168178-3",
+                "cuit_empresa": "20-17168178-3",
+                "clave_afip": "giulianA1412",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "AMAL S.A.": {
+                "razon_social": "AMAL S.A.",
+                "cuit_acceso": "27-24905918-3",
+                "cuit_empresa": "30-71729895-7",
+                "clave_afip": "Lanaa905918",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "Ejemplo": {
+                "razon_social": "Ejemplo",
+                "cuit_acceso": "30-12345678-3",
+                "cuit_empresa": "30-12345678-3",
+                "clave_afip": "clave1234",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "3"
+            },
+            "RESMENI JUAN PABLO": {
+                "razon_social": "RESMENI JUAN PABLO",
+                "cuit_acceso": "20-28395536-3",
+                "cuit_empresa": "20-28395536-3",
+                "clave_afip": "Resmeni25472547",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "RUARTE ERNESTO EDUARDO": {
+                "razon_social": "RUARTE ERNESTO EDUARDO",
+                "cuit_acceso": "20-25791406-3",
+                "cuit_empresa": "20-25791406-3",
+                "clave_afip": "Ternero2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "RESPIGHI PABLO": {
+                "razon_social": "RESPIGHI PABLO",
+                "cuit_acceso": "20-29530870-3",
+                "cuit_empresa": "20-29530870-3",
+                "clave_afip": "Prespighi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "LOS TERNEROS REBELDES SAS": {
+                "razon_social": "LOS TERNEROS REBELDES SAS",
+                "cuit_acceso": "20-25791406-3",
+                "cuit_empresa": "33-71678565-9",
+                "clave_afip": "Terneros2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "MURDACA GARCIA LEONARDO": {
+                "razon_social": "MURDACA GARCIA LEONARDO",
+                "cuit_acceso": "24-41879989-3",
+                "cuit_empresa": "24-41879989-3",
+                "clave_afip": "Libertador99",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "LAUTARO GUZZETTI": {
+                "razon_social": "LAUTARO GUZZETTI",
+                "cuit_acceso": "20-42143631-3",
+                "cuit_empresa": "20-42143631-3",
+                "clave_afip": "LAUdg4681696",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            },
+            "LAMELA FACUNDO": {
+                "razon_social": "LAMELA FACUNDO",
+                "cuit_acceso": "20-42253935-3",
+                "cuit_empresa": "20-42253935-3",
+                "clave_afip": "ManualBelgrano1820",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "3"
+            }
+        }
+    },
+    "Lote_4": {
+        "cantidad_clientes": 56,
+        "clientes": {
+            "YAMPA CONSTRUCCIONES S.A": {
+                "razon_social": "YAMPA CONSTRUCCIONES S.A",
+                "cuit_acceso": "20-04389866-4",
+                "cuit_empresa": "30-71540919-0",
+                "clave_afip": "Ma20002024ma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "VACCHIANO VANINA NATALIA": {
+                "razon_social": "VACCHIANO VANINA NATALIA",
+                "cuit_acceso": "27-27336457-4",
+                "cuit_empresa": "27-27336457-4",
+                "clave_afip": "VACchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "LOBOESTE S.A.": {
+                "razon_social": "LOBOESTE S.A.",
+                "cuit_acceso": "20-14971391-4",
+                "cuit_empresa": "30-71121679-7",
+                "clave_afip": "loboS13915",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "LIMA ADRIAN ADOLFO": {
+                "razon_social": "LIMA ADRIAN ADOLFO",
+                "cuit_acceso": "20-29271353-4",
+                "cuit_empresa": "20-29271353-4",
+                "clave_afip": "Gisella170624",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "PETRILLI PASCUAL": {
+                "razon_social": "PETRILLI PASCUAL",
+                "cuit_acceso": "20-93850487-4",
+                "cuit_empresa": "20-93850487-4",
+                "clave_afip": "1234AbbA322",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ELECTRO UNIVERSO - PLIN METAL S A": {
+                "razon_social": "ELECTRO UNIVERSO - PLIN METAL S A",
+                "cuit_acceso": "20-21497212-4",
+                "cuit_empresa": "30-53405104-9",
+                "clave_afip": "eEDupPaz14972",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BORTOT IVANA FLORINA": {
+                "razon_social": "BORTOT IVANA FLORINA",
+                "cuit_acceso": "27-34156132-4",
+                "cuit_empresa": "27-34156132-4",
+                "clave_afip": "Antoalfie19",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "PUCCI JORGE": {
+                "razon_social": "PUCCI JORGE",
+                "cuit_acceso": "20-10087487-4",
+                "cuit_empresa": "20-10087487-4",
+                "clave_afip": "Olinima1075",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "LOBOS CAROLA": {
+                "razon_social": "LOBOS CAROLA",
+                "cuit_acceso": "27-35348696-4",
+                "cuit_empresa": "27-35348696-4",
+                "clave_afip": "Lobosca2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BELLO ABEL HORACIO": {
+                "razon_social": "BELLO ABEL HORACIO",
+                "cuit_acceso": "20-14317233-4",
+                "cuit_empresa": "20-14317233-4",
+                "clave_afip": "ABello14317",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ROCIO FERNANDEZ": {
+                "razon_social": "ROCIO FERNANDEZ",
+                "cuit_acceso": "23-42296704-4",
+                "cuit_empresa": "23-42296704-4",
+                "clave_afip": "Pins130613",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MENDOZA ELBA BEATRIZ": {
+                "razon_social": "MENDOZA ELBA BEATRIZ",
+                "cuit_acceso": "27-17265836-4",
+                "cuit_empresa": "27-17265836-4",
+                "clave_afip": "Mendoza2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BABIY BOGDAN": {
+                "razon_social": "BABIY BOGDAN",
+                "cuit_acceso": "24-93772751-4",
+                "cuit_empresa": "24-93772751-4",
+                "clave_afip": "Bogdan2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "SAAVEDRA, GUSTAVO MARTIN": {
+                "razon_social": "SAAVEDRA, GUSTAVO MARTIN",
+                "cuit_acceso": "20-20618175-4",
+                "cuit_empresa": "20-20618175-4",
+                "clave_afip": "GUSTavo17541",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "SUCESION DERRAH CARLOS": {
+                "razon_social": "SUCESION DERRAH CARLOS",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "20-04295535-4",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "GARCIA ABRIL MARTINA": {
+                "razon_social": "GARCIA ABRIL MARTINA",
+                "cuit_acceso": "27-45311041-4",
+                "cuit_empresa": "27-45311041-4",
+                "clave_afip": "AfipCuenta20",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "SMAIL, ALIDA DELICIA": {
+                "razon_social": "SMAIL, ALIDA DELICIA",
+                "cuit_acceso": "23-13245488-4",
+                "cuit_empresa": "23-13245488-4",
+                "clave_afip": "Alidasmail25",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "SAMET S.A.": {
+                "razon_social": "SAMET S.A.",
+                "cuit_acceso": "20-20618175-4",
+                "cuit_empresa": "30-62411565-8",
+                "clave_afip": "GUSTavo17541",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MARTIN RAQUEL JUDIT": {
+                "razon_social": "MARTIN RAQUEL JUDIT",
+                "cuit_acceso": "23-23937935-4",
+                "cuit_empresa": "23-23937935-4",
+                "clave_afip": "Martin5076",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "AGRO BOREAL S.A.": {
+                "razon_social": "AGRO BOREAL S.A.",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "30-71822315-2",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "Degastaldi Natalia": {
+                "razon_social": "Degastaldi Natalia",
+                "cuit_acceso": "27-30878982-4",
+                "cuit_empresa": "27-30878982-4",
+                "clave_afip": "Natdanto23",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ALLONDA AMBIENTAL": {
+                "razon_social": "ALLONDA AMBIENTAL",
+                "cuit_acceso": "20-94698709-4",
+                "cuit_empresa": "30-71621137-8",
+                "clave_afip": "Allondaarg2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BERNASCONI JUAN FEDERICO (PADRE)": {
+                "razon_social": "BERNASCONI JUAN FEDERICO (PADRE)",
+                "cuit_acceso": "20-08275540-4",
+                "cuit_empresa": "20-08275540-4",
+                "clave_afip": "Juanb195014",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MARCARIAN CARLOS": {
+                "razon_social": "MARCARIAN CARLOS",
+                "cuit_acceso": "20-04389866-4",
+                "cuit_empresa": "20-04389866-4",
+                "clave_afip": "Ma20002024ma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MARCELA AMARILLA": {
+                "razon_social": "MARCELA AMARILLA",
+                "cuit_acceso": "23-21605710-4",
+                "cuit_empresa": "23-21605710-4",
+                "clave_afip": "lulI170599",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "GOMEZ FLORENCIA": {
+                "razon_social": "GOMEZ FLORENCIA",
+                "cuit_acceso": "23-40546039-4",
+                "cuit_empresa": "23-40546039-4",
+                "clave_afip": "Malaga2020",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "VITOP INTERNACIONAL S.A": {
+                "razon_social": "VITOP INTERNACIONAL S.A",
+                "cuit_acceso": "20-93850487-4",
+                "cuit_empresa": "30-71122597-4",
+                "clave_afip": "1234AbbA322",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "CONSORCIO ALEF II": {
+                "razon_social": "CONSORCIO ALEF II",
+                "cuit_acceso": "20-10398465-4",
+                "cuit_empresa": "33-71565845-9",
+                "clave_afip": "CarlosB2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "LOPEZ TORTU IGNACIO": {
+                "razon_social": "LOPEZ TORTU IGNACIO",
+                "cuit_acceso": "20-38617506-4",
+                "cuit_empresa": "20-38617506-4",
+                "clave_afip": "delfinA1613",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "DE NUCCI, MARIANO ROMULO": {
+                "razon_social": "DE NUCCI, MARIANO ROMULO",
+                "cuit_acceso": "20-21587413-4",
+                "cuit_empresa": "20-21587413-4",
+                "clave_afip": "MaraRDeNu1970",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "STORTINI MARTA": {
+                "razon_social": "STORTINI MARTA",
+                "cuit_acceso": "27-13336541-4",
+                "cuit_empresa": "27-13336541-4",
+                "clave_afip": "Stortini2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "DERRAH GABRIEL": {
+                "razon_social": "DERRAH GABRIEL",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "20-21443442-4",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "HARRED S.A.": {
+                "razon_social": "HARRED S.A.",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "30-68308562-2",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "GARCIA SOMOZA FEDERICO GONZALO": {
+                "razon_social": "GARCIA SOMOZA FEDERICO GONZALO",
+                "cuit_acceso": "20-28229038-4",
+                "cuit_empresa": "20-28229038-4",
+                "clave_afip": "redguarD1974",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "Tuner S.A.": {
+                "razon_social": "Tuner S.A.",
+                "cuit_acceso": "23-13245488-4",
+                "cuit_empresa": "30-70831844-9",
+                "clave_afip": "Alidasmail23",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "QUIROGA LORENA": {
+                "razon_social": "QUIROGA LORENA",
+                "cuit_acceso": "23-25273679-4",
+                "cuit_empresa": "23-25273679-4",
+                "clave_afip": "SAntiago230207",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "DE ANDRADE BARBOSA RAFAEL": {
+                "razon_social": "DE ANDRADE BARBOSA RAFAEL",
+                "cuit_acceso": "20-94698709-4",
+                "cuit_empresa": "20-94698709-4",
+                "clave_afip": "rafael2018",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ALBANO PAOLA": {
+                "razon_social": "ALBANO PAOLA",
+                "cuit_acceso": "27-36287722-4",
+                "cuit_empresa": "27-36287722-4",
+                "clave_afip": "Albano2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "YZMIR S.A.": {
+                "razon_social": "YZMIR S.A.",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "30-70763399-5",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MASI Carolina": {
+                "razon_social": "MASI Carolina",
+                "cuit_acceso": "27-38069115-4",
+                "cuit_empresa": "27-38069115-4",
+                "clave_afip": "Florencia27",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MASSUN IGNACIO CARLOS": {
+                "razon_social": "MASSUN IGNACIO CARLOS",
+                "cuit_acceso": "20-06151464-4",
+                "cuit_empresa": "20-06151464-4",
+                "clave_afip": "Massun2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ANAPAT SA": {
+                "razon_social": "ANAPAT SA",
+                "cuit_acceso": "20-04389866-4",
+                "cuit_empresa": "30-71795332-7",
+                "clave_afip": "Ma20002024ma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "LOBOS ENRIQUE HORACIO": {
+                "razon_social": "LOBOS ENRIQUE HORACIO",
+                "cuit_acceso": "20-14971391-4",
+                "cuit_empresa": "20-14971391-4",
+                "clave_afip": "loboS13915",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "FENIX DESARROLLOS E INVERSIONES S.A": {
+                "razon_social": "FENIX DESARROLLOS E INVERSIONES S.A",
+                "cuit_acceso": "20-21497212-4",
+                "cuit_empresa": "30-71255813-6",
+                "clave_afip": "eEDupPaz1497224",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MARA HERRERA": {
+                "razon_social": "MARA HERRERA",
+                "cuit_acceso": "23-41261176-4",
+                "cuit_empresa": "23-41261176-4",
+                "clave_afip": "Mara050413",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "PAZ EDUARDO": {
+                "razon_social": "PAZ EDUARDO",
+                "cuit_acceso": "20-21497212-4",
+                "cuit_empresa": "20-21497212-4",
+                "clave_afip": "eEDupPaz1497224",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BASSI MELISA": {
+                "razon_social": "BASSI MELISA",
+                "cuit_acceso": "23-29469499-4",
+                "cuit_empresa": "23-29469499-4",
+                "clave_afip": "MElino2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "DIAS ALBERTO": {
+                "razon_social": "DIAS ALBERTO",
+                "cuit_acceso": "20-16800377-4",
+                "cuit_empresa": "20-16800377-4",
+                "clave_afip": "Dias1680224",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "ESCUELA BME MITRE DS SA": {
+                "razon_social": "ESCUELA BME MITRE DS SA",
+                "cuit_acceso": "20-21443442-4",
+                "cuit_empresa": "33-71816377-9",
+                "clave_afip": "3442Derrah4",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "SGF INTERNACIONAL SA": {
+                "razon_social": "SGF INTERNACIONAL SA",
+                "cuit_acceso": "27-38069115-4",
+                "cuit_empresa": "30-71791006-7",
+                "clave_afip": "Pablo2023.",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "MAGALLANES, SILVIA ALEJANDRA": {
+                "razon_social": "MAGALLANES, SILVIA ALEJANDRA",
+                "cuit_acceso": "27-23375376-4",
+                "cuit_empresa": "27-23375376-4",
+                "clave_afip": "Magallanes2025",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "BUENACEPA S.A.": {
+                "razon_social": "BUENACEPA S.A.",
+                "cuit_acceso": "20-14971391-4",
+                "cuit_empresa": "30-71161686-8",
+                "clave_afip": "loboS13915",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "DUCA, ADELINA LUISA": {
+                "razon_social": "DUCA, ADELINA LUISA",
+                "cuit_acceso": "27-04090969-4",
+                "cuit_empresa": "27-04090969-4",
+                "clave_afip": "Luisa0969414",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "QUILAC S.A.": {
+                "razon_social": "QUILAC S.A.",
+                "cuit_acceso": "23-25273679-4",
+                "cuit_empresa": "30-71571131-8",
+                "clave_afip": "SAntiago230209",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            },
+            "GRUPO CONTROL SRL": {
+                "razon_social": "GRUPO CONTROL SRL",
+                "cuit_acceso": "23-22535589-4",
+                "cuit_empresa": "30-71524158-3",
+                "clave_afip": "ferreyrA3405",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "4"
+            },
+            "KHUAN S.A.": {
+                "razon_social": "KHUAN S.A.",
+                "cuit_acceso": "20-04389866-4",
+                "cuit_empresa": "30-71845255-0",
+                "clave_afip": "Ma20002024ma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "4"
+            }
+        }
+    },
+    "Lote_5": {
+        "cantidad_clientes": 42,
+        "clientes": {
+            "SUAREZ MARIA FLORENCIA": {
+                "razon_social": "SUAREZ MARIA FLORENCIA",
+                "cuit_acceso": "27-35266362-5",
+                "cuit_empresa": "27-35266362-5",
+                "clave_afip": "Flor352663",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "COBOS NADIN": {
+                "razon_social": "COBOS NADIN",
+                "cuit_acceso": "27-34370187-5",
+                "cuit_empresa": "27-34370187-5",
+                "clave_afip": "142309Chloe",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "NUÑEZ PATRICIA VIVIANA": {
+                "razon_social": "NUÑEZ PATRICIA VIVIANA",
+                "cuit_acceso": "27-21110287-5",
+                "cuit_empresa": "27-21110287-5",
+                "clave_afip": "PATricianu111028",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "BONATO FLORENCIA LUCIANA": {
+                "razon_social": "BONATO FLORENCIA LUCIANA",
+                "cuit_acceso": "27-35754355-5",
+                "cuit_empresa": "27-35754355-5",
+                "clave_afip": "Florencia19",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "GRUPO ALIMENTICIO LEDESMA GARCIA S.A.": {
+                "razon_social": "GRUPO ALIMENTICIO LEDESMA GARCIA S.A.",
+                "cuit_acceso": "20-22503144-5",
+                "cuit_empresa": "30-71815320-0",
+                "clave_afip": "MAtadores2024!",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "BOTELLO LUIS": {
+                "razon_social": "BOTELLO LUIS",
+                "cuit_acceso": "20-34481097-5",
+                "cuit_empresa": "20-34481097-5",
+                "clave_afip": "Felipe2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "Moreno Elena Beatriz": {
+                "razon_social": "Moreno Elena Beatriz",
+                "cuit_acceso": "27-14971121-5",
+                "cuit_empresa": "27-14971121-5",
+                "clave_afip": "Elena5555551",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "DEGASTALDI ANIBAL": {
+                "razon_social": "DEGASTALDI ANIBAL",
+                "cuit_acceso": "20-11791548-5",
+                "cuit_empresa": "20-11791548-5",
+                "clave_afip": "ANIbal5488",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "LOPEZ ARIEL": {
+                "razon_social": "LOPEZ ARIEL",
+                "cuit_acceso": "20-17564982-5",
+                "cuit_empresa": "20-17564982-5",
+                "clave_afip": "WALOpez1966",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "jonathan zacarias": {
+                "razon_social": "jonathan zacarias",
+                "cuit_acceso": "20-42146141-5",
+                "cuit_empresa": "20-42146141-5",
+                "clave_afip": "4862018luiS",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "SANITARIOS SAN MARTIN S.A.": {
+                "razon_social": "SANITARIOS SAN MARTIN S.A.",
+                "cuit_acceso": "20-23477613-5",
+                "cuit_empresa": "30-71809251-1",
+                "clave_afip": "Christian202",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "EL SOLAR GUARANI": {
+                "razon_social": "EL SOLAR GUARANI",
+                "cuit_acceso": "20-22503144-5",
+                "cuit_empresa": "30-71687727-9",
+                "clave_afip": "MAtadores2024!",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "MARTINEZ AMEZAGA ALVARO DANIEL": {
+                "razon_social": "MARTINEZ AMEZAGA ALVARO DANIEL",
+                "cuit_acceso": "20-12520164-5",
+                "cuit_empresa": "20-12520164-5",
+                "clave_afip": "4lv4r02K24",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "IGLESIAS BARTOLOME MARIA FERNANDA": {
+                "razon_social": "IGLESIAS BARTOLOME MARIA FERNANDA",
+                "cuit_acceso": "27-20388589-5",
+                "cuit_empresa": "27-20388589-5",
+                "clave_afip": "IGLEf858956",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "BERNAL JORGE ALFREDO": {
+                "razon_social": "BERNAL JORGE ALFREDO",
+                "cuit_acceso": "20-22688487-5",
+                "cuit_empresa": "20-22688487-5",
+                "clave_afip": "Bernal2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "DALPONTE LIONEL": {
+                "razon_social": "DALPONTE LIONEL",
+                "cuit_acceso": "20-24430578-5",
+                "cuit_empresa": "20-24430578-5",
+                "clave_afip": "ld37Ivjedal",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "EL CORRALON DE JOSEPA SA": {
+                "razon_social": "EL CORRALON DE JOSEPA SA",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "30-71870211-5",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "MELANIA SUAREZ": {
+                "razon_social": "MELANIA SUAREZ",
+                "cuit_acceso": "27-26407763-5",
+                "cuit_empresa": "27-26407763-5",
+                "clave_afip": "77635MelaSuarez1",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "VIROGO INMOBILIARIA": {
+                "razon_social": "VIROGO INMOBILIARIA",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "30-71106036-3",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "TISNE MARCELA ALEJANDRA": {
+                "razon_social": "TISNE MARCELA ALEJANDRA",
+                "cuit_acceso": "27-21532642-5",
+                "cuit_empresa": "27-21532642-5",
+                "clave_afip": "Marcela2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "MORENO MELISA": {
+                "razon_social": "MORENO MELISA",
+                "cuit_acceso": "27-33098063-5",
+                "cuit_empresa": "27-33098063-5",
+                "clave_afip": "Monteagudo1388",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "IANNONE FABIAN PABLO": {
+                "razon_social": "IANNONE FABIAN PABLO",
+                "cuit_acceso": "20-16822127-5",
+                "cuit_empresa": "20-16822127-5",
+                "clave_afip": "Fabianpablo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "EL CORRALON DE LA RUTA 7 SA": {
+                "razon_social": "EL CORRALON DE LA RUTA 7 SA",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "33-71870116-9",
+                "clave_afip": "Garciav2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "ESTEBAN BERNARDO DARIO": {
+                "razon_social": "ESTEBAN BERNARDO DARIO",
+                "cuit_acceso": "20-20030221-5",
+                "cuit_empresa": "20-20030221-5",
+                "clave_afip": "Vstrom650xt**",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "WEST CONCRETE SA": {
+                "razon_social": "WEST CONCRETE SA",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "30-71873691-5",
+                "clave_afip": "Garciav2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "LAGO GISELA ROMINA": {
+                "razon_social": "LAGO GISELA ROMINA",
+                "cuit_acceso": "27-31687679-5",
+                "cuit_empresa": "27-31687679-5",
+                "clave_afip": "Gisela2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "Mogues Myriam": {
+                "razon_social": "Mogues Myriam",
+                "cuit_acceso": "27-14738341-5",
+                "cuit_empresa": "27-14738341-5",
+                "clave_afip": "Mmyriam2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "ARANA VIVIANA ELENA": {
+                "razon_social": "ARANA VIVIANA ELENA",
+                "cuit_acceso": "27-16917671-5",
+                "cuit_empresa": "27-16917671-5",
+                "clave_afip": "ARana00520",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "LEDESMA MARCELO DANIEL": {
+                "razon_social": "LEDESMA MARCELO DANIEL",
+                "cuit_acceso": "20-22503144-5",
+                "cuit_empresa": "20-22503144-5",
+                "clave_afip": "MAtadores2024!",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "DANIELA ILIEFF": {
+                "razon_social": "DANIELA ILIEFF",
+                "cuit_acceso": "27-34941712-5",
+                "cuit_empresa": "27-34941712-5",
+                "clave_afip": "Gonzalo2006",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "Irigoyen Romina Soledad": {
+                "razon_social": "Irigoyen Romina Soledad",
+                "cuit_acceso": "27-29365932-5",
+                "cuit_empresa": "27-29365932-5",
+                "clave_afip": "Romina2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "BLIKER S.A.": {
+                "razon_social": "BLIKER S.A.",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "30-71789847-4",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "CANEPA MATIAS PABLO": {
+                "razon_social": "CANEPA MATIAS PABLO",
+                "cuit_acceso": "20-23174248-5",
+                "cuit_empresa": "20-23174248-5",
+                "clave_afip": "Canepa2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "5"
+            },
+            "Christian Javier Rodriguez Veltri": {
+                "razon_social": "Christian Javier Rodriguez Veltri",
+                "cuit_acceso": "20-23477613-5",
+                "cuit_empresa": "20-23477613-5",
+                "clave_afip": "Christian200",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "GARCIA VICTOR": {
+                "razon_social": "GARCIA VICTOR",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "20-29382041-5",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "EL CORRALON DE LA GAONA S.A.": {
+                "razon_social": "EL CORRALON DE LA GAONA S.A.",
+                "cuit_acceso": "20-11015565-5",
+                "cuit_empresa": "30-70995353-9",
+                "clave_afip": "Fernando2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "EL CORRALON DE LA 23 SRL": {
+                "razon_social": "EL CORRALON DE LA 23 SRL",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "33-70905643-9",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "RUCKAUF GUSTAVO (HIJO)": {
+                "razon_social": "RUCKAUF GUSTAVO (HIJO)",
+                "cuit_acceso": "20-25892685-5",
+                "cuit_empresa": "20-25892685-5",
+                "clave_afip": "Mora1903162023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "MATERIALES EN OBRA S.A.": {
+                "razon_social": "MATERIALES EN OBRA S.A.",
+                "cuit_acceso": "20-29382041-5",
+                "cuit_empresa": "30-71788833-9",
+                "clave_afip": "Garciav2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "MOLINA ERNESTO": {
+                "razon_social": "MOLINA ERNESTO",
+                "cuit_acceso": "20-08331046-5",
+                "cuit_empresa": "20-08331046-5",
+                "clave_afip": "MOreno2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "SIGNORELLI CARLOS GABRIEL": {
+                "razon_social": "SIGNORELLI CARLOS GABRIEL",
+                "cuit_acceso": "20-22910865-5",
+                "cuit_empresa": "20-22910865-5",
+                "clave_afip": "Gabriel1973",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            },
+            "BECCACECE EDGARDO (A)": {
+                "razon_social": "BECCACECE EDGARDO (A)",
+                "cuit_acceso": "20-04924850-5",
+                "cuit_empresa": "20-04924850-5",
+                "clave_afip": "Edgardo2004",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "5"
+            }
+        }
+    },
+    "Lote_6": {
+        "cantidad_clientes": 29,
+        "clientes": {
+            "CHISUUM SA": {
+                "razon_social": "CHISUUM SA",
+                "cuit_acceso": "20-14317294-6",
+                "cuit_empresa": "30-71164848-4",
+                "clave_afip": "EstudiO2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "GARCIA GONZALO": {
+                "razon_social": "GARCIA GONZALO",
+                "cuit_acceso": "20-37036300-6",
+                "cuit_empresa": "20-37036300-6",
+                "clave_afip": "Gonzalo2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "TRANSPORTES Y LOGISTICA DEL OESTE SA": {
+                "razon_social": "TRANSPORTES Y LOGISTICA DEL OESTE SA",
+                "cuit_acceso": "27-33312461-6",
+                "cuit_empresa": "30-71198086-1",
+                "clave_afip": "Transportes2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "ACEVEDO VALERIA": {
+                "razon_social": "ACEVEDO VALERIA",
+                "cuit_acceso": "27-27179429-6",
+                "cuit_empresa": "27-27179429-6",
+                "clave_afip": "Quillinzo24",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "MANSILLA JUAN": {
+                "razon_social": "MANSILLA JUAN",
+                "cuit_acceso": "20-26102291-6",
+                "cuit_empresa": "20-26102291-6",
+                "clave_afip": "fipJMM102291",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "SARLUX S.A.": {
+                "razon_social": "SARLUX S.A.",
+                "cuit_acceso": "20-18412240-6",
+                "cuit_empresa": "30-71576198-6",
+                "clave_afip": "Gustavo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "SANGREGORIO OMAR JAVIER": {
+                "razon_social": "SANGREGORIO OMAR JAVIER",
+                "cuit_acceso": "20-08609368-6",
+                "cuit_empresa": "20-08609368-6",
+                "clave_afip": "Sangregorio2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "PAGANO NELIDA SUSANA": {
+                "razon_social": "PAGANO NELIDA SUSANA",
+                "cuit_acceso": "27-02720538-6",
+                "cuit_empresa": "27-02720538-6",
+                "clave_afip": "Susanap1935*",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "BILLINO MYRIAN": {
+                "razon_social": "BILLINO MYRIAN",
+                "cuit_acceso": "27-18463975-6",
+                "cuit_empresa": "27-18463975-6",
+                "clave_afip": "Flicas2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "MASSA PASCUAL CARLOS": {
+                "razon_social": "MASSA PASCUAL CARLOS",
+                "cuit_acceso": "20-07641965-6",
+                "cuit_empresa": "20-07641965-6",
+                "clave_afip": "60Juan2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "ELECTROPELBA S.A.": {
+                "razon_social": "ELECTROPELBA S.A.",
+                "cuit_acceso": "20-07641965-6",
+                "cuit_empresa": "30-70851488-4",
+                "clave_afip": "60Juan2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "BOLFF DANIEL": {
+                "razon_social": "BOLFF DANIEL",
+                "cuit_acceso": "20-21585885-6",
+                "cuit_empresa": "20-21585885-6",
+                "clave_afip": "Bolffdaniel2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "ACYTRA S.A.I.C.": {
+                "razon_social": "ACYTRA S.A.I.C.",
+                "cuit_acceso": "27-18463975-6",
+                "cuit_empresa": "30-50218578-7",
+                "clave_afip": "Flicas2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "BRAVI LUCAS": {
+                "razon_social": "BRAVI LUCAS",
+                "cuit_acceso": "20-34600936-6",
+                "cuit_empresa": "20-34600936-6",
+                "clave_afip": "Lucasb11446",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "CALCIA DANIEL ALFREDO": {
+                "razon_social": "CALCIA DANIEL ALFREDO",
+                "cuit_acceso": "20-14317294-6",
+                "cuit_empresa": "20-14317294-6",
+                "clave_afip": "EstudiO2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "GRUPO MASSA S.A.": {
+                "razon_social": "GRUPO MASSA S.A.",
+                "cuit_acceso": "20-07641965-6",
+                "cuit_empresa": "30-69729342-2",
+                "clave_afip": "60Juan2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "PONCE DE LEON JUAN": {
+                "razon_social": "PONCE DE LEON JUAN",
+                "cuit_acceso": "20-22578725-6",
+                "cuit_empresa": "20-22578725-6",
+                "clave_afip": "Pepe031995",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "BRIEVA MARIA EUGENIA": {
+                "razon_social": "BRIEVA MARIA EUGENIA",
+                "cuit_acceso": "27-28061203-6",
+                "cuit_empresa": "27-28061203-6",
+                "clave_afip": "Eugenia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "CAGNOLA HORACIO JORGE": {
+                "razon_social": "CAGNOLA HORACIO JORGE",
+                "cuit_acceso": "20-24406398-6",
+                "cuit_empresa": "20-04919845-1",
+                "clave_afip": "HJCagnola150741",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "LAZZARINI ALFREDO": {
+                "razon_social": "LAZZARINI ALFREDO",
+                "cuit_acceso": "20-04137419-6",
+                "cuit_empresa": "20-04137419-6",
+                "clave_afip": "Client0005",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "CLEMENTE FRANCISCO GUSTAVO": {
+                "razon_social": "CLEMENTE FRANCISCO GUSTAVO",
+                "cuit_acceso": "20-18412240-6",
+                "cuit_empresa": "20-18412240-6",
+                "clave_afip": "Gustavo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "OKRETIC MAXIMILIANO": {
+                "razon_social": "OKRETIC MAXIMILIANO",
+                "cuit_acceso": "20-21110950-6",
+                "cuit_empresa": "20-21110950-6",
+                "clave_afip": "Okretic50620212",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "SAAVEDRA, MARIELA": {
+                "razon_social": "SAAVEDRA, MARIELA",
+                "cuit_acceso": "27-22277447-6",
+                "cuit_empresa": "27-22277447-6",
+                "clave_afip": "1971Mariela111",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "ARGENTINO MARCELO": {
+                "razon_social": "ARGENTINO MARCELO",
+                "cuit_acceso": "20-16315509-6",
+                "cuit_empresa": "20-16315509-6",
+                "clave_afip": "MarceloA+2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "CAGNOLA MARTIN": {
+                "razon_social": "CAGNOLA MARTIN",
+                "cuit_acceso": "20-24406398-6",
+                "cuit_empresa": "20-24406398-6",
+                "clave_afip": "HJCagnola150741",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "MARCARIAN JUAN PABLO": {
+                "razon_social": "MARCARIAN JUAN PABLO",
+                "cuit_acceso": "20-25745564-6",
+                "cuit_empresa": "20-25745564-6",
+                "clave_afip": "Aotto2002!!!",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "BALBI CLARISA SUSANA": {
+                "razon_social": "BALBI CLARISA SUSANA",
+                "cuit_acceso": "27-26226282-6",
+                "cuit_empresa": "27-26226282-6",
+                "clave_afip": "Clarisa1977",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "MUSMANNO GISELA": {
+                "razon_social": "MUSMANNO GISELA",
+                "cuit_acceso": "27-33312461-6",
+                "cuit_empresa": "27-33312461-6",
+                "clave_afip": "Logistica2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            },
+            "GABRIEL QUIROGA": {
+                "razon_social": "GABRIEL QUIROGA",
+                "cuit_acceso": "20-39599361-6",
+                "cuit_empresa": "20-39599361-6",
+                "clave_afip": "G4br13lH3n4n2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "6"
+            }
+        }
+    },
+    "Lote_7": {
+        "cantidad_clientes": 51,
+        "clientes": {
+            "CD DISTRIBUTION DE ARGENTINA SRL": {
+                "razon_social": "CD DISTRIBUTION DE ARGENTINA SRL",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-71523409-9",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "RESMENI JULIAN": {
+                "razon_social": "RESMENI JULIAN",
+                "cuit_acceso": "20-42393674-7",
+                "cuit_empresa": "20-42393674-7",
+                "clave_afip": "ResmeniJ1904",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "RUCKAUF GUILLERMO ALBERTO": {
+                "razon_social": "RUCKAUF GUILLERMO ALBERTO",
+                "cuit_acceso": "20-14059351-7",
+                "cuit_empresa": "20-14059351-7",
+                "clave_afip": "Guille1405952024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PEIMA S.A.": {
+                "razon_social": "PEIMA S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-71086397-7",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "TRAPANOTTO ANTONIO FELIPE": {
+                "razon_social": "TRAPANOTTO ANTONIO FELIPE",
+                "cuit_acceso": "20-22702693-7",
+                "cuit_empresa": "20-22702693-7",
+                "clave_afip": "AntonTra2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAONESSA PABLO JAVIER": {
+                "razon_social": "PAONESSA PABLO JAVIER",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-30436422-0",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "VERNA RODOLFO OSCAR": {
+                "razon_social": "VERNA RODOLFO OSCAR",
+                "cuit_acceso": "20-12344859-7",
+                "cuit_empresa": "20-12344859-7",
+                "clave_afip": "Claudia1110",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "IRALE GERMAN": {
+                "razon_social": "IRALE GERMAN",
+                "cuit_acceso": "20-30846866-7",
+                "cuit_empresa": "20-30846866-7",
+                "clave_afip": "German330105",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "ESARA S.A.": {
+                "razon_social": "ESARA S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-70906429-7",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "NUÑEZ CLAUDIO FABIAN": {
+                "razon_social": "NUÑEZ CLAUDIO FABIAN",
+                "cuit_acceso": "20-17635192-7",
+                "cuit_empresa": "20-17635192-7",
+                "clave_afip": "Claudiofa1965",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "JOAQUIN ARIAS": {
+                "razon_social": "JOAQUIN ARIAS",
+                "cuit_acceso": "20-34417740-7",
+                "cuit_empresa": "20-34417740-7",
+                "clave_afip": "Ascasubi1990",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "TECNOLOGICAL DREAMS S.A.": {
+                "razon_social": "TECNOLOGICAL DREAMS S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-71224210-4",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "GUARD DE ARGENTINA S.A": {
+                "razon_social": "GUARD DE ARGENTINA S.A",
+                "cuit_acceso": "20-14059351-7",
+                "cuit_empresa": "30-71704624-9",
+                "clave_afip": "Guille1405952024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "DIAGNOSTICO TESLA SRL": {
+                "razon_social": "DIAGNOSTICO TESLA SRL",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-65078714-1",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "CENTRO ARGENTINO DE SEGURIDAD SA": {
+                "razon_social": "CENTRO ARGENTINO DE SEGURIDAD SA",
+                "cuit_acceso": "20-14059351-7",
+                "cuit_empresa": "30-70788834-9",
+                "clave_afip": "Guille1405952024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAONESSA CAROLINA": {
+                "razon_social": "PAONESSA CAROLINA",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "27-30780797-7",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "RUGGERI CHRISTIAN": {
+                "razon_social": "RUGGERI CHRISTIAN",
+                "cuit_acceso": "20-22061626-7",
+                "cuit_empresa": "20-22061626-7",
+                "clave_afip": "FeliDelfi23",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "7"
+            },
+            "PAONESSA JUAN CARLOS": {
+                "razon_social": "PAONESSA JUAN CARLOS",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-07773892-5",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PERRET OSCAR ALFREDO": {
+                "razon_social": "PERRET OSCAR ALFREDO",
+                "cuit_acceso": "20-14516448-7",
+                "cuit_empresa": "20-14516448-7",
+                "clave_afip": "PErret000518",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAINTCOLOUR MORENO S.A.": {
+                "razon_social": "PAINTCOLOUR MORENO S.A.",
+                "cuit_acceso": "20-14635178-7",
+                "cuit_empresa": "30-71534562-1",
+                "clave_afip": "abbasS1234",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "MARMOL CARLOS": {
+                "razon_social": "MARMOL CARLOS",
+                "cuit_acceso": "20-31068146-7",
+                "cuit_empresa": "20-31068146-7",
+                "clave_afip": "MArmol220584",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "INV Y CONS MUPREN SA": {
+                "razon_social": "INV Y CONS MUPREN SA",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "33-71023905-9",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "FABOTTO GRACIELA PATRICIA": {
+                "razon_social": "FABOTTO GRACIELA PATRICIA",
+                "cuit_acceso": "27-16754860-7",
+                "cuit_empresa": "27-16754860-7",
+                "clave_afip": "Fabotto4863",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "TROFA S.A.": {
+                "razon_social": "TROFA S.A.",
+                "cuit_acceso": "20-22702693-7",
+                "cuit_empresa": "30-71145848-0",
+                "clave_afip": "AntonTra2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "ACREED": {
+                "razon_social": "ACREED",
+                "cuit_acceso": "20-30846866-7",
+                "cuit_empresa": "30-71687913-1",
+                "clave_afip": "GIrale0505",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "CAPRARI SERGIO DANIEL": {
+                "razon_social": "CAPRARI SERGIO DANIEL",
+                "cuit_acceso": "20-14635178-7",
+                "cuit_empresa": "20-14635178-7",
+                "clave_afip": "abbasS1234",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "HERRERA NORMA": {
+                "razon_social": "HERRERA NORMA",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "27-10084105-9",
+                "clave_afip": "Bacchi2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BALAN GUSTAVO ALBERTO": {
+                "razon_social": "BALAN GUSTAVO ALBERTO",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-22782401-9",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BECCACECE JORGE MARTIN (M)": {
+                "razon_social": "BECCACECE JORGE MARTIN (M)",
+                "cuit_acceso": "20-25056700-7",
+                "cuit_empresa": "20-25056700-7",
+                "clave_afip": "BeccA7007202120",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "SUAREZ MARIA LAURA": {
+                "razon_social": "SUAREZ MARIA LAURA",
+                "cuit_acceso": "27-36904834-7",
+                "cuit_empresa": "27-36904834-7",
+                "clave_afip": "LAUra36904",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "APRIMA S.A.": {
+                "razon_social": "APRIMA S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "33-70933877-9",
+                "clave_afip": "Bacchi2022",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BACCHI JORGE": {
+                "razon_social": "BACCHI JORGE",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-14193292-7",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "VLADOVA, JUAN JOSE": {
+                "razon_social": "VLADOVA, JUAN JOSE",
+                "cuit_acceso": "20-14847210-7",
+                "cuit_empresa": "20-14847210-7",
+                "clave_afip": "JUan091909",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAONESSA EVANGELINA": {
+                "razon_social": "PAONESSA EVANGELINA",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "24-28280280-1",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "ZEITUNE SILVIA LEONOR": {
+                "razon_social": "ZEITUNE SILVIA LEONOR",
+                "cuit_acceso": "27-13034124-7",
+                "cuit_empresa": "27-13034124-7",
+                "clave_afip": "Silvia2024+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BROOMAN GABRIEL GUILLERMO": {
+                "razon_social": "BROOMAN GABRIEL GUILLERMO",
+                "cuit_acceso": "20-14193695-7",
+                "cuit_empresa": "20-14193695-7",
+                "clave_afip": "Floyd25gaby",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "AUTOCRISTALES MAXFRA SA": {
+                "razon_social": "AUTOCRISTALES MAXFRA SA",
+                "cuit_acceso": "20-14516448-7",
+                "cuit_empresa": "30-71101584-8",
+                "clave_afip": "PErret000518",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "ELECTRICIDAD SAN MARTIN S.A.": {
+                "razon_social": "ELECTRICIDAD SAN MARTIN S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-58905234-6",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAZ GUADALUPE": {
+                "razon_social": "PAZ GUADALUPE",
+                "cuit_acceso": "27-43244028-7",
+                "cuit_empresa": "27-43244028-7",
+                "clave_afip": "GUadapaz123",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "CAMARA EMPRESARIAL DEL PARQUE INDUSTRIAL MALVINAS ARGENTINAS": {
+                "razon_social": "CAMARA EMPRESARIAL DEL PARQUE INDUSTRIAL MALVINAS ARGENTINAS",
+                "cuit_acceso": "27-22347617-7",
+                "cuit_empresa": "30-71129114-4",
+                "clave_afip": "Graceo7128",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BALAN PABLO MATIAS": {
+                "razon_social": "BALAN PABLO MATIAS",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-25396305-1",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "TRAVANTI S.A.": {
+                "razon_social": "TRAVANTI S.A.",
+                "cuit_acceso": "20-22702693-7",
+                "cuit_empresa": "30-71801347-6",
+                "clave_afip": "AntonTra2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "RODRIGUEZ BACCHI SA": {
+                "razon_social": "RODRIGUEZ BACCHI SA",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-71745944-6",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PAONESSA MARIANA SOLEDAD": {
+                "razon_social": "PAONESSA MARIANA SOLEDAD",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "27-29564188-1",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "VEGA ROCIO": {
+                "razon_social": "VEGA ROCIO",
+                "cuit_acceso": "27-33784635-7",
+                "cuit_empresa": "27-33784635-7",
+                "clave_afip": "Vegarocio2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "PINTURERIAS MARANATA DE CAPRARI SERGIO DANIEL Y BELLO ABEL HORACIO SH": {
+                "razon_social": "PINTURERIAS MARANATA DE CAPRARI SERGIO DANIEL Y BELLO ABEL HORACIO SH",
+                "cuit_acceso": "20-14635178-7",
+                "cuit_empresa": "30-70885172-4",
+                "clave_afip": "abbasS1234",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "GRECO DAVID": {
+                "razon_social": "GRECO DAVID",
+                "cuit_acceso": "20-93730372-7",
+                "cuit_empresa": "20-93730372-7",
+                "clave_afip": "MOreno2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "7"
+            },
+            "PAONESSA ALBERTO": {
+                "razon_social": "PAONESSA ALBERTO",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "20-06149625-5",
+                "clave_afip": "Bacchi2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "MOLINA ROCIO CELESTE": {
+                "razon_social": "MOLINA ROCIO CELESTE",
+                "cuit_acceso": "27-35684404-7",
+                "cuit_empresa": "27-35684404-7",
+                "clave_afip": "Fran201410",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "BONATO NICOLAS": {
+                "razon_social": "BONATO NICOLAS",
+                "cuit_acceso": "20-33895142-7",
+                "cuit_empresa": "20-33895142-7",
+                "clave_afip": "Brumabo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            },
+            "RACKLATINA S.A.": {
+                "razon_social": "RACKLATINA S.A.",
+                "cuit_acceso": "20-14193292-7",
+                "cuit_empresa": "30-67969632-3",
+                "clave_afip": "Bacchi2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "7"
+            }
+        }
+    },
+    "Lote_8": {
+        "cantidad_clientes": 25,
+        "clientes": {
+            "SANTIAGO QUIROGA": {
+                "razon_social": "SANTIAGO QUIROGA",
+                "cuit_acceso": "20-44548924-8",
+                "cuit_empresa": "20-44548924-8",
+                "clave_afip": "Santiago2002",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "Logistica La Reja S.A.": {
+                "razon_social": "Logistica La Reja S.A.",
+                "cuit_acceso": "20-20378476-8",
+                "cuit_empresa": "33-71597131-9",
+                "clave_afip": "Logist2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "MAYCLA SAS": {
+                "razon_social": "MAYCLA SAS",
+                "cuit_acceso": "27-22262106-8",
+                "cuit_empresa": "30-71610604-3",
+                "clave_afip": "Mayra122024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "BARTOMEO ENRIQUE FRANCISCO": {
+                "razon_social": "BARTOMEO ENRIQUE FRANCISCO",
+                "cuit_acceso": "20-36718593-8",
+                "cuit_empresa": "20-36718593-8",
+                "clave_afip": "Fran583279",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "LEZAMA HUGO DANIEL": {
+                "razon_social": "LEZAMA HUGO DANIEL",
+                "cuit_acceso": "20-33915168-8",
+                "cuit_empresa": "20-33915168-8",
+                "clave_afip": "Yani123456",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "AMOR DAMIAN": {
+                "razon_social": "AMOR DAMIAN",
+                "cuit_acceso": "20-40081025-8",
+                "cuit_empresa": "20-40081025-8",
+                "clave_afip": "DamEamor2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "WIN QUENTIN GLEN": {
+                "razon_social": "WIN QUENTIN GLEN",
+                "cuit_acceso": "20-94042328-8",
+                "cuit_empresa": "20-94042328-8",
+                "clave_afip": "Buenosaires2024!",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "Pascale, Alejandro Marcelo": {
+                "razon_social": "Pascale, Alejandro Marcelo",
+                "cuit_acceso": "20-23702926-8",
+                "cuit_empresa": "20-23702926-8",
+                "clave_afip": "1975Alejandro2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "SALEH S.A.": {
+                "razon_social": "SALEH S.A.",
+                "cuit_acceso": "20-28692732-8",
+                "cuit_empresa": "30-71815010-4",
+                "clave_afip": "Leoderrah2024+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "SUCESION FABOTTO JORGE": {
+                "razon_social": "SUCESION FABOTTO JORGE",
+                "cuit_acceso": "27-21707025-8",
+                "cuit_empresa": "20-18444727-5",
+                "clave_afip": "Trifa702024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "DERRAH DANIEL LEONARDO": {
+                "razon_social": "DERRAH DANIEL LEONARDO",
+                "cuit_acceso": "20-22245097-8",
+                "cuit_empresa": "20-22245097-8",
+                "clave_afip": "Derrah2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "Claudia Mattiello": {
+                "razon_social": "Claudia Mattiello",
+                "cuit_acceso": "27-20270872-8",
+                "cuit_empresa": "27-20270872-8",
+                "clave_afip": "Sofialuz2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "BYRNE RUBEN DARIO": {
+                "razon_social": "BYRNE RUBEN DARIO",
+                "cuit_acceso": "20-13308238-8",
+                "cuit_empresa": "20-13308238-8",
+                "clave_afip": "Susana2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "CLARA MEZA": {
+                "razon_social": "CLARA MEZA",
+                "cuit_acceso": "27-94007333-8",
+                "cuit_empresa": "27-94007333-8",
+                "clave_afip": "Clarit2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "BECCACECE GUILLERMO(M)": {
+                "razon_social": "BECCACECE GUILLERMO(M)",
+                "cuit_acceso": "20-20378476-8",
+                "cuit_empresa": "20-20378476-8",
+                "clave_afip": "Logist2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "MAIALE": {
+                "razon_social": "MAIALE",
+                "cuit_acceso": "20-10092251-8",
+                "cuit_empresa": "30-71659085-9",
+                "clave_afip": "Turquesa2000",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "DERRAH LEONEL": {
+                "razon_social": "DERRAH LEONEL",
+                "cuit_acceso": "20-28692732-8",
+                "cuit_empresa": "20-28692732-8",
+                "clave_afip": "Leoderrah2024+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "SCHILLACI MONICA LILIANA": {
+                "razon_social": "SCHILLACI MONICA LILIANA",
+                "cuit_acceso": "27-16112355-8",
+                "cuit_empresa": "27-16112355-8",
+                "clave_afip": "1803CHOChi",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "DERRAH LUIS": {
+                "razon_social": "DERRAH LUIS",
+                "cuit_acceso": "20-28692732-8",
+                "cuit_empresa": "20-04394575-1",
+                "clave_afip": "Leoderrah2024+",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "DE LA CRUZ SELIA NOEMI": {
+                "razon_social": "DE LA CRUZ SELIA NOEMI",
+                "cuit_acceso": "27-21346122-8",
+                "cuit_empresa": "27-21346122-8",
+                "clave_afip": "Delacruz2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "ALLPORK S.A.": {
+                "razon_social": "ALLPORK S.A.",
+                "cuit_acceso": "20-10092251-8",
+                "cuit_empresa": "30-71094116-1",
+                "clave_afip": "Turquesa2000",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "COSENTINO ROBERTO FRANCISCO": {
+                "razon_social": "COSENTINO ROBERTO FRANCISCO",
+                "cuit_acceso": "20-13209080-8",
+                "cuit_empresa": "20-13209080-8",
+                "clave_afip": "Cosentino9084",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "ABUELAFIA ELIDA NOEMI Y DERRAH DANIEL LEONARDO S.H.": {
+                "razon_social": "ABUELAFIA ELIDA NOEMI Y DERRAH DANIEL LEONARDO S.H.",
+                "cuit_acceso": "20-22245097-8",
+                "cuit_empresa": "30-70749155-4",
+                "clave_afip": "Derrah2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            },
+            "PERRET FRANCO": {
+                "razon_social": "PERRET FRANCO",
+                "cuit_acceso": "20-38949510-8",
+                "cuit_empresa": "20-38949510-8",
+                "clave_afip": "FRanco2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "8"
+            },
+            "CANZANI PAOLA": {
+                "razon_social": "CANZANI PAOLA",
+                "cuit_acceso": "27-24689329-8",
+                "cuit_empresa": "27-24689329-8",
+                "clave_afip": "PaolaC2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "8"
+            }
+        }
+    },
+    "Lote_9": {
+        "cantidad_clientes": 57,
+        "clientes": {
+            "BRENZONI RUBEN OSCAR": {
+                "razon_social": "BRENZONI RUBEN OSCAR",
+                "cuit_acceso": "23-11269572-9",
+                "cuit_empresa": "23-11269572-9",
+                "clave_afip": "Brenzoni2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "IRON LOCK S.A.": {
+                "razon_social": "IRON LOCK S.A.",
+                "cuit_acceso": "27-25811757-9",
+                "cuit_empresa": "30-71391300-2",
+                "clave_afip": "Pugliese2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BACCHI MARCELO": {
+                "razon_social": "BACCHI MARCELO",
+                "cuit_acceso": "20-18026133-9",
+                "cuit_empresa": "20-18026133-9",
+                "clave_afip": "Melez2106A",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "DINDU S.A.": {
+                "razon_social": "DINDU S.A.",
+                "cuit_acceso": "27-22245202-9",
+                "cuit_empresa": "30-71143546-4",
+                "clave_afip": "DindU20244",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "TERRAFERTIL S.A.": {
+                "razon_social": "TERRAFERTIL S.A.",
+                "cuit_acceso": "23-16579844-9",
+                "cuit_empresa": "30-54108354-1",
+                "clave_afip": "Client0007",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BOLFF OSCAR ALEJANDRO": {
+                "razon_social": "BOLFF OSCAR ALEJANDRO",
+                "cuit_acceso": "20-07661901-9",
+                "cuit_empresa": "20-07661901-9",
+                "clave_afip": "bolffO76621",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MARCIANO NATALIA ROXANA": {
+                "razon_social": "MARCIANO NATALIA ROXANA",
+                "cuit_acceso": "27-22245202-9",
+                "cuit_empresa": "27-22245202-9",
+                "clave_afip": "DindU20234",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "PERIOTTO MARIANO ALEJANDRO": {
+                "razon_social": "PERIOTTO MARIANO ALEJANDRO",
+                "cuit_acceso": "20-26177188-9",
+                "cuit_empresa": "20-26177188-9",
+                "clave_afip": "Juan6061011",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "CROCI LEONARDO": {
+                "razon_social": "CROCI LEONARDO",
+                "cuit_acceso": "20-25010329-9",
+                "cuit_empresa": "20-25010329-9",
+                "clave_afip": "Leonardo2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "TAPONECO MARIA ISABEL": {
+                "razon_social": "TAPONECO MARIA ISABEL",
+                "cuit_acceso": "27-04863251-9",
+                "cuit_empresa": "27-04863251-9",
+                "clave_afip": "maria2024TAPONECO",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BLUE WEST S.A.": {
+                "razon_social": "BLUE WEST S.A.",
+                "cuit_acceso": "20-18169020-9",
+                "cuit_empresa": "30-71187777-7",
+                "clave_afip": "Sanguinetti2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BONATO SOFIA": {
+                "razon_social": "BONATO SOFIA",
+                "cuit_acceso": "27-38586385-9",
+                "cuit_empresa": "27-38586385-9",
+                "clave_afip": "Sofiab2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "SANGUINETTI MARCELO JAVIER": {
+                "razon_social": "SANGUINETTI MARCELO JAVIER",
+                "cuit_acceso": "20-18169020-9",
+                "cuit_empresa": "20-18169020-9",
+                "clave_afip": "Sanguinetti2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "GARCIA FERNANDO JAVIER": {
+                "razon_social": "GARCIA FERNANDO JAVIER",
+                "cuit_acceso": "20-23216933-9",
+                "cuit_empresa": "20-23216933-9",
+                "clave_afip": "Fergarcia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "NAHON MATIAS": {
+                "razon_social": "NAHON MATIAS",
+                "cuit_acceso": "20-22471471-9",
+                "cuit_empresa": "20-22471471-9",
+                "clave_afip": "MatiasN2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "PALPTON SRL": {
+                "razon_social": "PALPTON SRL",
+                "cuit_acceso": "23-30251327-9",
+                "cuit_empresa": "30-71563158-6",
+                "clave_afip": "09Mecoluma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MARTINEZ AMEZAGA ALVARO AGUSTIN": {
+                "razon_social": "MARTINEZ AMEZAGA ALVARO AGUSTIN",
+                "cuit_acceso": "20-32891267-9",
+                "cuit_empresa": "20-32891267-9",
+                "clave_afip": "Golfito3901",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MASSA AGOSTINA": {
+                "razon_social": "MASSA AGOSTINA",
+                "cuit_acceso": "27-28023069-9",
+                "cuit_empresa": "27-28023069-9",
+                "clave_afip": "Agosmassa2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "LOPEZ GONZALO": {
+                "razon_social": "LOPEZ GONZALO",
+                "cuit_acceso": "23-40543985-9",
+                "cuit_empresa": "23-40543985-9",
+                "clave_afip": "Jlpv150722",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BIG BUILDER S.A.": {
+                "razon_social": "BIG BUILDER S.A.",
+                "cuit_acceso": "20-07661901-9",
+                "cuit_empresa": "30-71039297-4",
+                "clave_afip": "bolffO76621",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "CARSHOP": {
+                "razon_social": "CARSHOP",
+                "cuit_acceso": "20-26577395-9",
+                "cuit_empresa": "30-71763147-8",
+                "clave_afip": "MARtin2025",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "SANTANA MARTIN": {
+                "razon_social": "SANTANA MARTIN",
+                "cuit_acceso": "20-26577395-9",
+                "cuit_empresa": "20-26577395-9",
+                "clave_afip": "MARtin2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MRKVA FERNANDO GABRIEL": {
+                "razon_social": "MRKVA FERNANDO GABRIEL",
+                "cuit_acceso": "20-20187261-9",
+                "cuit_empresa": "20-20187261-9",
+                "clave_afip": "EStu872624",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "FERNANDEZ BRENZONI SH": {
+                "razon_social": "FERNANDEZ BRENZONI SH",
+                "cuit_acceso": "23-11269572-9",
+                "cuit_empresa": "30-71137562-3",
+                "clave_afip": "Brenzoni2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "LINEA NARANJA SA": {
+                "razon_social": "LINEA NARANJA SA",
+                "cuit_acceso": "23-22497530-9",
+                "cuit_empresa": "30-71793983-9",
+                "clave_afip": "Arrastia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "FELHU S.A.": {
+                "razon_social": "FELHU S.A.",
+                "cuit_acceso": "20-04915482-9",
+                "cuit_empresa": "30-70926772-4",
+                "clave_afip": "Bkcc022023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BECCACECE JORGE (A)": {
+                "razon_social": "BECCACECE JORGE (A)",
+                "cuit_acceso": "20-04915482-9",
+                "cuit_empresa": "20-04915482-9",
+                "clave_afip": "Bkcc022023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "ASSEFF, ANIBAL JULIO": {
+                "razon_social": "ASSEFF, ANIBAL JULIO",
+                "cuit_acceso": "20-16112285-9",
+                "cuit_empresa": "20-16112285-9",
+                "clave_afip": "Sultan2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "PACEWICZ ANDREA VIVIANA": {
+                "razon_social": "PACEWICZ ANDREA VIVIANA",
+                "cuit_acceso": "27-28253646-9",
+                "cuit_empresa": "27-28253646-9",
+                "clave_afip": "Alma202021",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "KAMINSKI RAFAEL": {
+                "razon_social": "KAMINSKI RAFAEL",
+                "cuit_acceso": "20-23910151-9",
+                "cuit_empresa": "20-23910151-9",
+                "clave_afip": "Krafael2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "LOPEZ CARLOS ALBERTO": {
+                "razon_social": "LOPEZ CARLOS ALBERTO",
+                "cuit_acceso": "20-16240042-9",
+                "cuit_empresa": "20-16240042-9",
+                "clave_afip": "Lopezc2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "VICTOREL OSVALDO DANIEL": {
+                "razon_social": "VICTOREL OSVALDO DANIEL",
+                "cuit_acceso": "23-23775129-9",
+                "cuit_empresa": "23-23775129-9",
+                "clave_afip": "Anac751299",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MRKVA TEOFILO FERNANDO": {
+                "razon_social": "MRKVA TEOFILO FERNANDO",
+                "cuit_acceso": "23-04921080-9",
+                "cuit_empresa": "23-04921080-9",
+                "clave_afip": "TEofilo9224",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "WIN VERNON": {
+                "razon_social": "WIN VERNON",
+                "cuit_acceso": "23-94042330-9",
+                "cuit_empresa": "23-94042330-9",
+                "clave_afip": "Vernon202023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "Gertel, Marcelo Rafael": {
+                "razon_social": "Gertel, Marcelo Rafael",
+                "cuit_acceso": "23-14564313-9",
+                "cuit_empresa": "23-14564313-9",
+                "clave_afip": "Pietro166795",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "CIANO DELIA ROSALIA": {
+                "razon_social": "CIANO DELIA ROSALIA",
+                "cuit_acceso": "20-25010329-9",
+                "cuit_empresa": "27-92228599-9",
+                "clave_afip": "Leonardo2023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "SAAVEDRA MARTIN JESUS": {
+                "razon_social": "SAAVEDRA MARTIN JESUS",
+                "cuit_acceso": "23-36825710-9",
+                "cuit_empresa": "23-36825710-9",
+                "clave_afip": "Mar20tin24",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "GOMEZ YGNACIA SUNILDA": {
+                "razon_social": "GOMEZ YGNACIA SUNILDA",
+                "cuit_acceso": "27-13576628-9",
+                "cuit_empresa": "27-13576628-9",
+                "clave_afip": "Lavidaesbella123",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "LAMELA CARLOS ARTURO": {
+                "razon_social": "LAMELA CARLOS ARTURO",
+                "cuit_acceso": "20-14740950-9",
+                "cuit_empresa": "20-14740950-9",
+                "clave_afip": "lamelA95101",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "ARRASTIA ALBERTO": {
+                "razon_social": "ARRASTIA ALBERTO",
+                "cuit_acceso": "23-22497530-9",
+                "cuit_empresa": "23-22497530-9",
+                "clave_afip": "Arrastia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BEDECARRAS MAXIMILIANO": {
+                "razon_social": "BEDECARRAS MAXIMILIANO",
+                "cuit_acceso": "23-30251327-9",
+                "cuit_empresa": "23-30251327-9",
+                "clave_afip": "09Mecoluma",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "CAPUTO ROBERTO": {
+                "razon_social": "CAPUTO ROBERTO",
+                "cuit_acceso": "20-12552027-9",
+                "cuit_empresa": "20-12552027-9",
+                "clave_afip": "Robercap2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "GONZALEZ FRANCISCO IGNACIO": {
+                "razon_social": "GONZALEZ FRANCISCO IGNACIO",
+                "cuit_acceso": "20-33768129-9",
+                "cuit_empresa": "20-33768129-9",
+                "clave_afip": "Devciscate8129",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "ISSA PELBA S.A.": {
+                "razon_social": "ISSA PELBA S.A.",
+                "cuit_acceso": "20-26177188-9",
+                "cuit_empresa": "30-71519463-1",
+                "clave_afip": "Juan6061011",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "HASSELL BLANCO ROCIO NOELIA": {
+                "razon_social": "HASSELL BLANCO ROCIO NOELIA",
+                "cuit_acceso": "27-37783381-9",
+                "cuit_empresa": "27-37783381-9",
+                "clave_afip": "OFFcrema212024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BECCACECE HNOS S A": {
+                "razon_social": "BECCACECE HNOS S A",
+                "cuit_acceso": "20-04915482-9",
+                "cuit_empresa": "30-52949908-2",
+                "clave_afip": "Bkcc022023",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "Garea Micaela": {
+                "razon_social": "Garea Micaela",
+                "cuit_acceso": "27-36697778-9",
+                "cuit_empresa": "27-36697778-9",
+                "clave_afip": "Chucky0612",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "MAGBROKER SRL": {
+                "razon_social": "MAGBROKER SRL",
+                "cuit_acceso": "20-23216933-9",
+                "cuit_empresa": "30-71622862-9",
+                "clave_afip": "Fergarcia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "LOPEZ DE CALLE FERNANDO JULIO": {
+                "razon_social": "LOPEZ DE CALLE FERNANDO JULIO",
+                "cuit_acceso": "20-11095012-9",
+                "cuit_empresa": "20-11095012-9",
+                "clave_afip": "Suerte2112",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "9"
+            },
+            "MARTINEZ GUSTAVO OMAR": {
+                "razon_social": "MARTINEZ GUSTAVO OMAR",
+                "cuit_acceso": "20-16112027-9",
+                "cuit_empresa": "20-16112027-9",
+                "clave_afip": "Dycc676767",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BECCACECE PABLO EDGARDO (M)": {
+                "razon_social": "BECCACECE PABLO EDGARDO (M)",
+                "cuit_acceso": "20-21116267-9",
+                "cuit_empresa": "20-21116267-9",
+                "clave_afip": "BecA2021116220",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "DRILOR SRL": {
+                "razon_social": "DRILOR SRL",
+                "cuit_acceso": "20-23216933-9",
+                "cuit_empresa": "30-71695579-2",
+                "clave_afip": "Fergarcia2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "SOLUCIONES DEL OESTE S.A.": {
+                "razon_social": "SOLUCIONES DEL OESTE S.A.",
+                "cuit_acceso": "23-22285680-9",
+                "cuit_empresa": "30-70991806-7",
+                "clave_afip": "Gustavo2023 (VEP x Pagnone Karina)",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "PUGLIESE SILVIA LAURA": {
+                "razon_social": "PUGLIESE SILVIA LAURA",
+                "cuit_acceso": "27-25811757-9",
+                "cuit_empresa": "27-25811757-9",
+                "clave_afip": "LaurA1977011",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BECCACECE NESTOR (A)": {
+                "razon_social": "BECCACECE NESTOR (A)",
+                "cuit_acceso": "23-06011197-9",
+                "cuit_empresa": "23-06011197-9",
+                "clave_afip": "Bkcc0111970",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "BERNASCONI JUAN FEDERICO (Hijo)": {
+                "razon_social": "BERNASCONI JUAN FEDERICO (Hijo)",
+                "cuit_acceso": "23-28751924-9",
+                "cuit_empresa": "23-28751924-9",
+                "clave_afip": "Federico2024",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            },
+            "CIDEPP PSICOLOGIA Y PSIQUIATRIA SA": {
+                "razon_social": "CIDEPP PSICOLOGIA Y PSIQUIATRIA SA",
+                "cuit_acceso": "20-14740950-9",
+                "cuit_empresa": "30-71113693-9",
+                "clave_afip": "lamelA95101",
+                "cuit_invalido": "No",
+                "clave_faltante": "No",
+                "inicio_sesion": "Si",
+                "lote": "9"
+            }
+        }
+    },
+    "Lote_Sin_Lote": {
+        "cantidad_clientes": 7,
+        "clientes": {
+            "EMPRENDIMIENTOS PPH S.A.": {
+                "razon_social": "EMPRENDIMIENTOS PPH S.A.",
+                "cuit_acceso": null,
+                "cuit_empresa": "30-68864066-7",
+                "clave_afip": "PabloB1205",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "STEPHEN MYLES WIN": {
+                "razon_social": "STEPHEN MYLES WIN",
+                "cuit_acceso": null,
+                "cuit_empresa": "20-94027378-2",
+                "clave_afip": "Myles-2025",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "GONZALEZ ROSANA MARCELA": {
+                "razon_social": "GONZALEZ ROSANA MARCELA",
+                "cuit_acceso": null,
+                "cuit_empresa": "27-21030283-8",
+                "clave_afip": "Brigite2023",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "ESTABLECIMIENTO HPP S.A.": {
+                "razon_social": "ESTABLECIMIENTO HPP S.A.",
+                "cuit_acceso": null,
+                "cuit_empresa": "30-71130489-0",
+                "clave_afip": "PabloB1205",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "Juan Alfredo Casiraghi": {
+                "razon_social": "Juan Alfredo Casiraghi",
+                "cuit_acceso": null,
+                "cuit_empresa": "20-11574925-1",
+                "clave_afip": "Casijac2024",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "Pablo Nicolas Respighi": {
+                "razon_social": "Pablo Nicolas Respighi",
+                "cuit_acceso": null,
+                "cuit_empresa": "20-29530870-3",
+                "clave_afip": "Casijac2024",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            },
+            "CLAUDIA PAOLA CEBALLOS": {
+                "razon_social": "CLAUDIA PAOLA CEBALLOS",
+                "cuit_acceso": null,
+                "cuit_empresa": "27-92548962-5",
+                "clave_afip": "Martina26291",
+                "cuit_invalido": "Si",
+                "clave_faltante": "No",
+                "inicio_sesion": "No",
+                "lote": "Sin_Lote"
+            }
+        }
+    },
+    "estadisticas_lotes": {
+        "Lote_0": 35,
+        "Lote_1": 35,
+        "Lote_2": 28,
+        "Lote_3": 40,
+        "Lote_4": 56,
+        "Lote_5": 42,
+        "Lote_6": 29,
+        "Lote_7": 51,
+        "Lote_8": 25,
+        "Lote_9": 57,
+        "Lote_Sin_Lote": 7
+    }
+}

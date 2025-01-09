@@ -1,0 +1,1478 @@
+Martes 15/10/24
+
+Se completo la instalacion y configuracion del area de trabajo:
+
+* Instalacion de Python 3.11
+* Instalacion de Visual Studio Code
+* Instalacion de Plugins en VSC:
+    - After Dark -> Tema oscuro para mejorar la visual de VSC
+    - Atom One Dark Theme -> Tema alternativo para la visual de VSC
+    - Auto Close Tag -> Cierre de etiquetas automaticas
+    - Auto Rename Tag -> Sobreescritura en la edicion de etiquetas automatico
+    - Autopep8 -> Formateador de codigo Python
+    - Code Runner -> Ejecutador de codigo general
+    - Indent-Rainbow -> Pinta de colores la identacion segun el emparejamiento
+    - Live Server -> Servidor en vivo para ver las actualizaciones al instante
+    - Material Icon Theme -> Reemplazo de iconos a todo el VSC
+    - Path Intellisense -> Autoescritura sugestiva de rutas
+    - Prettier -> Formateador opcional para Python
+    - Pylance, Python y Python Debugger -> Soporte, debugger y performance sobre el codigo Python
+* Instalacion de NodeJS
+* Instalacion de Git
+
+
+Desarrollo del dia
+
+* Se genero la carpeta contenedora del proyecto
+* Se instalo Django + Django Rest Framework
+* Se crearon los modelos tickets, users, admins
+* Se crearon sus serializadores
+* Se crearon sus urlpatterns
+* Se crearon sus vistas
+* Se le asignaron un lugar al admin de Django para pruebas
+* Se agrego todo lo anterior a la api general
+* Se creo un repositorio en ambito privado y se realizo el push
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
+Miercoles 16/10/24
+
+
+Se profundizo en el modelo TicketsTechnical:
+
+    * Se logro verificar el estado
+    * Se logro chequear si hay un cambio de estado
+    * Se logro guardar el archivo
+    * Se logro adjuntarlo en un mail y enviarlo al equipo 
+    * Se logro adjuntarlo en un mail y enviarlo al usuario
+    * Se logro enviar el mail cuando el estado del ticket cambia
+    
+Errores:
+
+    * No se pudo llevar la misma logica de impresion por terminal de los envios de mail en los demas tickets
+      - Revisar la estructura del serializador o el cache  ?
+      - Rediseñar la capa de modelos y modularizar aun mas los tickets ?
+      - Revisar el flujo de creacion, asignacion y envio de datos
+
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+Jueves 17/10/24
+
+
+Decidi separar aun mas y modularizar los modelos tickets y cree 3 nuevos modelos con responsabilidad  unica 
+    
+    * Elimine la antigua arquitectura de un solo modulo app para tickets
+    * Se creo un modulo para cada ticket en particular.
+        - ticket_facilities
+        - ticket_consolidated
+        - ticket_technical
+    * Se crearon los serializers para cada modulo
+    * Se crearon los views para cada modulo
+    * Se crearon los url_patterns de cada modulo
+    * Se asigno la ruta para el panel de administrador de pruebas
+    * Se agrego las apps al settings.py de la carpeta principal
+    * Se agrego todas las rutas al urls.py de la carpeta principal
+
+
+Funcionalidades de los modulos hasta el dia de la fecha
+
+    * Creacion de tickets con los campos genericos:
+    
+        -STATUS_OPTIONS = [
+        ('Sent', 'Sent'),
+        ('Received', 'Received'),
+        ('In Process', 'In Process'),
+        ('Completed', 'Completed'),
+        ]
+        
+        status = input CharField, max_length=40, choices=STATUS_OPTIONS, default='Sent'
+        created = input DateField, auto_now_add=True, null=True
+        datecompleted = input DateField, null=True, blank=True
+        description = input TextField, blank=True
+        title = input CharField, max_length=100, default='No title'
+        user = input ForeignKey con User, on_delete=models.CASCADE, null=True, blank=True
+
+
+    * Creacion de campo particular en ticket_consolidated:
+        - period : input CharField, max_length=40, choices=PERIOD_OPTIONS
+
+  
+    * Creacion de campo particular en ticket_technical:
+        - fileupload = input FileField, upload_to='ticketsfiles/'
+
+
+Instale y configure el client con la libreria React para el consumo de datos
+
+    * Se instalo React y los modulos a utilizar con el empaquetador Vite
+
+    * Se creo la carpeta pages:
+        - IndexPage
+        - LoginPage
+        - TicketsPage
+        - TicketFormPage
+    
+    * Se creo la carpeta components:
+        - Navigation
+        - Ticket List
+
+    * Se creo la carpeta api y todo el crud correspondiente para el modelo Ticket TicketsTechnical
+        - Get All []
+        - Get by id
+        - Post 
+        - Delete by id 
+        - Update by id
+
+    * Se testeo la conexion del front con el back luego de configurar el CORS
+        - Trae todas las tareas y las muestra por consola
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+Viernes 18/10/24
+
+
+Server
+
+    * Se corrijio un error en el modulo TicketConsolidated que interferia con el serializador
+      y no me mostraba el dato correcto en el formato Json para el front
+    
+    * Se agregaron los url_patterns de los modulos TicketConsolidated, TicketFacilities a la carpeta raiz
+
+    * Se realizaron las migraciones en la base de datos, luego de haber realizado algunos cambios en los
+      modelos TicketConsolidated, TicketFacilities
+
+Client
+
+    * Se crearon los archivos api con sus CRUD correspondientes para los modulos
+      ticketsconsolidated, TicketFacilities
+
+        - Get All []
+        - Get by id
+        - Post 
+        - Delete by id 
+        - Update by id
+
+    * Se modifico el componente TicketList y se lo dividio en 3 partes para seguir la arquitectura
+      de modularizar los tickets 
+    
+        - TicketConsolidated
+        - TicketConsolidatedCard
+        - TicketFacilities
+        - TicketFacilitiesCard
+        - TicketTechnical
+        - TicketTechnicalCard
+
+    * Se conecto el client al server y se consumieron los datos correctamente en formato Json
+
+
+
+-----------------------------------------------------------------------------------------------
+
+Lunes 21/10/24
+
+Client en TicketFacilities
+
+
+    * Se crearon las pages
+        - TicketFormPage
+            + Para crear tickets desde el front
+            + Para actualizar tickets desde el front
+            + Para borrar tickets desde el front
+
+            (Todo con validaciones y requermimientos de datos)
+
+    * Se crearon las rutas en el App.jsx
+
+    * Se modifico un endpoint en la api
+        - El endpoint de PUT fue eliminado
+
+    Se consumen y se envian todos los datos para el TicketFacilities
+
+
+Server
+
+    * Se modifico la funcion save en el modelo del TicketFacilities para que guarde
+      los datos que envia el usuario y los defaults que exigen el modelo
+    
+
+
+Resumen muy breve porque arranque tarde a documentar
+
+
+-----------------------------------------------------------------------------------------------
+
+
+Martes 22/10/24
+
+
+Client
+
+    * Se termino de realizar todo el CRUD desde el front para el TicketFacilities
+
+    * Se distribuyo la logica del CRUD al TicketConsolidated con la diferencia de que 
+      se debe mostrar el periodo y que toda pueda ser actualizable
+
+    * Se distribuyo la logica del CRUD al TicketsTechnical con la diferencia de que se
+      se debe mostrar el archivo que tiene adjuntarlo
+
+    * Todos los tickets se listan y se muestran correctamente en una sola vistas
+
+    * Cada ticket muestra su detalle y sus opciones para actualizar y borrar
+
+    * El TicketFacilities es el unico que tiene la accion de crear nuevo ticket
+
+    * Se opto por la opcion correcta de usar PUT para las actualizaciones, se lo duplico 
+      demas tickets
+
+    * Se actualizaron todos los componentes y pages para capturar, mostrar y actualizar 
+      los campos correspondientes
+
+    * Se generaron nuevas rutas tras la modularizacion de la logica... 
+
+
+Server
+
+    * Se realizaron pruebas a traves de ThunderClient para verificar los campos no esten validaciones
+
+
+Mañana se seguira con la visualizacion de los archivos y las generaciones de los tickets consolidated
+y technical, luego arrancar con el login y sus validaciones y acomodar las vistas y las rutas 
+
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
+Miercoles 23/10/24
+
+
+Client
+
+    * Se crearon los componentes
+        - File Viewer que es un manejador de archivos
+        - TicketConsolidatedEdit, Facilities y Technical para separar la logica de edicion
+
+    * Se Modificaron los componentes TicketConsolidatedCard, Facilities y Technical 
+      para que muestren los diferentes campos especializados de todos los tickets
+
+    * Se creron las pages TicketConsolidatedFormPage, Facilities y Technical 
+      para la creacion de cada ticket en particular 
+
+    * Se modificaron las pages TicketTechnicalDetailPage, Consolidated y Facilities
+      para que muestren los datos del ticket y la opcion de editarlos con los datos cargados
+
+    * Se optimizaron las apis de los tickets
+
+    * Se modificaron las secciones que superaban las cien lineas y se modularizaron
+
+
+                            * Se realizo el push al repo *
+                            
+
+
+-- Quedo todo funcionando entre el server y el client cumpliendo las directrices CRUD y SOLID --
+
+
+** Arreglar las estructuras de las carpetas aun mas para lograr una Clean Architecture **
+
+
+---------------------------------------------------------------------------------------------
+
+
+
+Jueves 24/10/24
+
+
+
+Server
+
+   * Se instalo la libreria de JWT
+
+   * Se modifico el modelo User para que se pueda registrar y loguearse con un token activo 
+
+   * Se modifico el serializer del modelo User para hacer match con la logica de JWT
+
+   * Se modifico el view del modelo User para que muestre vistas del usuario, del registro
+     y del token
+
+   * Se crearon las rutas de login, register y el token refresh
+
+   * Se agregaron las configuraciones del JWT, Auth_MODEL_USER y el AUTHENTICATION de diferencia
+     al settings.py
+
+         ** Se realizaron las migraciones correspondientes para actualizar los modelos ** 
+
+
+Client
+
+
+   * Se genero la logica en el LoginPage
+
+   * Se genero la logica en el RegisterPage
+
+   * Se organizo las pages de los tickets en un folder dedicado
+
+   * Se organizaron de mejor manera los componentes para que esten separados por modelos
+     en un folder dedicado
+
+   * Se creo un api CRUD para el usuario en su folder correspondiente
+
+   * Se organizaron las apis de los tickets en un folder dedicado
+
+   * Se creo y se organizo un folder de auth para manejar la logica de login y register
+
+   ** Se realizaron las pruebas a traves de ThunderClient y desde el front y dio todo 200 **
+
+                              
+                              * Se realizo el push *
+
+            -- Queda para el viernes asignarle el usuario al ticket y organizar --
+            -- el flujo de login > CRUD de tickets > log out y redireccionar --
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+Viernes 25/10/24
+
+
+    * Se logro implementar en el front el flujo del registro > login > y el usuario 
+      almacena en la base de datos
+
+    * Se reinicio la base de datos para evitar errores de constraint entre el usuario y el ticket
+
+    * Se modifico la api de ticket technical y se le integro la logica de JWT para que cada vez
+      que se loguea un usuario, se le asigne un token de autentificacion
+
+    * Se modificaron los componentes de edit para que no tiren error al hacer el update de todos los tickets
+
+    * Se modificaron los pages de edit para que no tiren error al hacer el update de todos los tickets
+
+
+
+Server
+
+
+    * Se agregaron configuraciones del JWT al settings.py
+
+    * Se logro que todos los modelos de tickets funcionen correctamente y se comporten con lo esperado
+
+    * Se corrigio el error de no poder actualizar el archivo subido desde el front
+
+    * Se logro implementar en el back toda la ruta del flujo ideal registro > login >
+      crecion de ticket > asignacion de datos del usuario 
+
+
+
+      PENDIENTE SEGUIR LLEVANDO LA LOGICA DE AUTENTICACION EN LA CREACION DE LOS DEMAS TICKETS
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Lunes 28/10/24
+
+
+
+  Server
+
+    * Se realizo re-ingenieria en la logica de la autenticacion
+
+    * Se tomo el ticket Consolidated y se aplico una logica diferente con respecto al token
+
+    * Se modifico el modelo, el serializer y el view para implementar la logica de auth.token 
+      que viene integrado al DRF de manera nativa
+
+
+
+  Client
+
+    * Se modifico la page register para solucionar el error de enviar el campo incorrecto 
+      en el Json
+    
+    * Se modifico el page del edit de consolidated para que muestre los datos del usuario
+      como modo de prueba para poder ver si se asigna el usuario a un ticket creado
+
+    * Se modifico el componente card de consolidated para que muestre los datos del 
+      usuario que creo ese ticket
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Martes 29/10/24
+
+
+  Server
+
+
+      * TicketTechnical: Creado para representar tickets técnicos con un campo de usuario, 
+        título, descripción, estado y fecha de creación.
+
+      *  Nuevos Campos: user (ForeignKey al usuario logueado), status (con opciones de estado).
+
+      *  TicketTechnicalFile: Modelo adicional para representar archivos adjuntos.
+
+      *  Nuevos Campos: filename y extension extraídos y guardados automáticamente en save().
+
+      *  Agregamos validación de extensión de archivos para restringirlos a tipos PDF, TXT, CSV, y Excel. 
+
+      *  La función validate_file_extension verifica el tipo MIME y arroja un error si el archivo no está permitido.
+
+      * Serializador TicketTechnicalSerializer
+
+      * Descripción de los Cambios
+
+      * Serializer para gestionar tanto los datos del ticket como los archivos asociados.
+
+      * files ahora utiliza TicketTechnicalFileSerializer para mostrar archivos.
+
+      * Campo adicional file_uploads para gestionar archivos desde el frontend.
+
+      * Panel de Administración (admin.py)
+
+      * Descripción de los Cambios
+
+      * Configuración del panel de administración para TicketTechnical:
+          Inline para gestionar archivos adjuntos desde el panel de administración.
+
+      * Vista lista con los detalles clave del ticket (status, user, etc.).
+
+      * Vista TicketTechnicalView
+
+      * Descripción de los Cambios
+
+      * Crear y actualizar tickets con múltiples archivos adjuntos.
+
+      * Método perform_create: guarda el ticket y asocia los archivos adjuntos.
+
+      * Método update: permite agregar nuevos archivos adjuntos a un ticket existente.
+
+
+
+
+Client
+
+
+
+      * Frontend: TicketTechnicalDetailPage y TicketTechnicalEdit
+
+      * Descripción de los Cambios
+
+      * Visualización de Archivos Existentes:
+          El componente ahora muestra filename y extension extraídos desde el backend para archivos ya subidos.
+
+      * Subida de Archivos Nuevos:
+          Archivos seleccionados en el frontend se muestran con nombre y extensión, y pueden ser eliminados antes de ser enviados.
+
+
+      ** CAMBIOS GENERALES EN EL CSS (FALTA ALINEAR LAS PAGES DE FORM DE LOS TICKETS)**
+
+      Mejoras en Documentación y Control de Errores
+      Errores: Mejor manejo de errores al cargar y actualizar archivos vacíos o no permitidos.
+      Documentación: Actualizaciones sobre el funcionamiento del modelo, vistas y serializadores.
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+Miercoles 30/10/24
+
+
+* Autenticación y Manejo de Tokens
+Contexto de Autenticación: Se implementó un contexto global (AuthContext) para manejar el estado de 
+autenticación del usuario. Esto permite que los componentes actualicen automáticamente su interfaz al iniciar 
+o cerrar sesión. Modificación del login: Se adaptó el login para que, al iniciar sesión, actualice el contexto de 
+autenticación y active el cambio de icono de Login a Log out. Modificación de logout: El cierre de sesión 
+también actualiza automáticamente el estado global, removiendo el token de autenticación y redirigiendo 
+a la página de inicio.
+
+
+* Navegación y UI del Botón de Login/Logout
+
+Componente Navigation: Se actualizó para que detecte automáticamente el estado de autenticación:
+Muestra Log out cuando el usuario está autenticado y Log in cuando no lo está. Añadimos useNavigate para 
+que el botón Log out redirija al usuario al home después de cerrar sesión.
+
+
+* Perfil del Usuario en ProfilePage
+
+Mostrar Datos del Usuario: Se creó una sección en ProfilePage para ver los datos del usuario autenticado.
+Campos mostrados: name, surname, email, status y role. Ajustamos el CSS para agrupar name y surname 
+en una fila y status y role en otra, mientras que email se dejó en su propia fila. Integración con la API: 
+Añadimos una función en la API para obtener los datos del usuario autenticado, incluyendo el uso de tokens 
+en las solicitudes mediante el encabezado Authorization.
+
+
+* Lista de Tickets del Usuario
+
+Endpoint de Tickets del Usuario: En el backend, se añadió un endpoint en la vista TicketTechnicalView para 
+obtener solo los tickets creados por el usuario autenticado. Visualización de Tickets en ProfilePage:
+Se añadió una lista de tickets en ProfilePage utilizando el componente TicketTechnicalCard.
+Los tickets se muestran en una columna con un div de desplazamiento (scroll) para manejar listas largas.
+Se utilizó la API para traer solo los tickets del usuario autenticado y se aplicó un interceptor para añadir el 
+token de autenticación a las solicitudes.
+
+
+* Optimización Visual con Tailwind CSS
+
+Consistencia en la Interfaz: Se ajustaron varios componentes (Login, ProfilePage, Navigation, TicketTechnicalCard) 
+para mantener una interfaz coherente usando Tailwind CSS. Diseño Responsivo: Se aplicaron clases 
+grid y gap para mejorar el diseño y la distribución de las secciones en ProfilePage, asegurando que los 
+campos status y role aparezcan en la misma fila en pantallas medianas o superiores.
+
+
+* Debugging y Solución de Errores
+
+Manejo de Errores de Autenticación: Se solucionaron varios errores de autenticación, incluyendo el uso de 
+permisos en el backend y errores de autorización 401 Unauthorized. Revisión de Tokens: Ajustes en 
+el almacenamiento y obtención de tokens para asegurar que todas las solicitudes autenticadas funcionen correctamente.
+Testeo y Depuración en ProfilePage: Validación de datos para asegurar que se rendericen los tickets del 
+usuario y sus datos de perfil sin errores.
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+Jueves 31/10/24
+
+
+
+Client
+
+
+
+    * Integración de Menú Desplegable en la Navegación
+
+        - Se creó un menú desplegable para las opciones de "New Ticket", "Profile" y "Log out".
+        - El menú se abre al hacer clic en el botón "Menu" si el usuario está logueado, y redirige al login si no lo está.
+
+
+    * Cierre Automático del Menú Desplegable
+
+        - Se implementó useEffect para cerrar el menú desplegable automáticamente al cambiar de página.
+        - Se utilizó useLocation de react-router-dom para detectar cambios en la ruta actual.
+
+
+    * Componente de Creación de Tickets
+
+        - Se creó el componente TicketCreationDropdown que muestra los íconos para crear diferentes 
+          tipos de tickets (Facilities, Technical, Consolidated).
+        - Este componente ahora se integra en la página de creación, siguiendo la misma lógica de diseño y estilo.
+
+
+    * Página de Índice
+
+        - Se mejoró la IndexPage para proporcionar información general sobre la aplicación, manteniendo la misma lógica de diseño CSS.
+
+
+    * Cambio de Títulos a Imágenes
+
+        - Se reemplazó el título "Smart TK" en la navegación por un logotipo de la aplicación, mejorando la estética visual.
+
+
+    * Uso de Link para Navegación
+
+        - Se adaptaron los enlaces en el componente de creación de tickets para usar el componente Link de react-router-dom, lo 
+          que proporciona una mejor navegación sin recargar la página.
+
+
+    * Lógica de Control del Menú
+
+        - Se ajustó la lógica de los botones en el menú desplegable para que, al iniciar sesión, el menú no se abra automáticamente.
+        - El menú se cierra cada vez que el usuario selecciona una opción del menú o cambia de página.
+    
+
+    
+
+                                                          ** Notas Finales **
+    
+    Estos cambios tienen como objetivo mejorar la usabilidad y la estética de la aplicación, asegurando que la experiencia del 
+    usuario sea fluida y profesional. Asegúrate de probar el comportamiento de la navegación y el menú para verificar que todas 
+    las interacciones funcionen como se espera.
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+Viernes 1/11/24
+
+
+
+    SERVER
+
+
+        * Adaptación de Modelos y Serializers
+
+
+            - Modelo TicketTechnical: Se adaptó para manejar la carga de archivos de manera similar a los modelos 
+              TicketFacilities y TicketConsolidated.
+
+            - Modelo TicketFacilities: Se finalizó con la lógica de carga de archivos.
+
+            - Modelo TicketConsolidated: Se actualizó para manejar archivos adjuntos.
+
+            - Serializers: Se ajustaron los serializers de TicketFacilities, TicketConsolidated y TicketTechnical 
+              para reflejar la carga de archivos.
+
+
+
+        
+        * Vistas (Views)
+
+
+            - Vista TicketTechnicalView: Se adaptó para manejar la lógica de archivos, incluyendo la validación de archivos subidos.
+
+            - Vista TicketFacilitiesView: Se adaptó para manejar la lógica de archivos.
+
+            - Vista TicketConsolidatedView: Se ajustó para incluir la carga de archivos.
+
+
+
+
+        * CLIENTE
+
+
+            - Card de TicketConsolidated: Se adaptó para incluir un visor de archivos al hacer clic en los archivos adjuntos.
+
+            - Card de TicketTechnical: Se adaptó para incluir un visor de archivos al hacer clic en los archivos adjuntos.
+
+            - Card de TicketFacilities: Se adaptó para incluir un visor de archivos.
+
+            - Formulario de Edición de TicketConsolidated: Se ajustó para reflejar la lógica de archivos y la interfaz.
+
+            - Formulario de Edición de TicketTechnical: Se finalizó con la lógica de carga de archivos.
+
+            - Formulario de Edición de TicketFacilities: Se adaptó para seguir la misma lógica que los formularios de Technical y Consolidated.
+
+            - Lista de Tickets: Se ajustaron las listas para reflejar la carga de datos de manera coherente.
+
+
+
+        * Componente de Detalle
+
+            - TicketTechnicalDetailPage: Se actualizó para incluir imágenes y subtítulos en la vista de detalles del ticket.
+
+            - TicketFacilitiesDetailPage: Adaptado para mostrar los detalles de la misma forma que el componente TicketTechnicalDetailPage.
+
+
+
+        * Mejoras de Experiencia de Usuario
+
+            - Uso de toast para retroalimentación: Se implementó retroalimentación para las acciones de creación, actualización y 
+            eliminación de tickets.
+
+            - Modales de confirmación: Se implementaron modales para confirmar la eliminación de tickets.
+
+
+
+        * Optimización de Código
+
+            - Se eliminaron fragmentos de código redundantes y se mejoró la legibilidad general.
+
+            - Se implementaron funciones auxiliares para gestionar archivos y su visualización.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Lunes 4/11/24
+
+
+                                    --** Dia de estudio tomado (Estadistica) **--
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Martes 5/11/24
+
+
+
+
+    SERVER
+
+
+        * Modelo TicketFacilities, TicketConsolidated, TicketTechnical:
+
+            - Se agregó un nuevo campo delivery_date de tipo DateField para detallar la fecha de entrega necesaria.
+
+        * Serializer:
+
+            - Se actualizó para incluir el nuevo campo delivery_date en la lista de campos serializados.
+        
+        * Vista:
+
+            - Se adaptó la lógica en perform_create y update para manejar correctamente el nuevo campo delivery_date.
+
+
+
+
+    CLIENT
+
+
+        * Formularios:
+
+            - Se modificaron los formularios para incluir un campo para la fecha de entrega, utilizando un input de tipo date.
+
+            - Se actualizó para mostrar la delivery_date del ticket.
+
+
+        * Logica de Muestra de Archivos:
+
+            - Se modificó para mostrar solo el nombre y la extensión de los archivos adjuntos.
+
+
+* Consumo de Firebase:
+
+Se discutió la implementación de una API RESTful usando Django Rest Framework para consumir datos de una Firebase App como una agenda de contactos de clientes.
+
+
+Notas
+La implementación de la API para Firebase se planeó para un desarrollo futuro.
+No se realizaron cambios en los archivos de configuración del entorno o las dependencias.
+
+Se debe comenzar con la redireccion al profile que corresponde segun el rol 
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+Miercoles 6/11/24
+
+
+    SERVER
+
+
+        * Modelo de Ticket Technical, Facilities, Consolidated:
+
+            - Se añadió el campo assigned_to para permitir la asignación de tickets a usuarios con rol de staff.
+
+            - Se adaptó el serializer correspondiente para incluir el campo assigned_to.
+
+            - Se agregó un nuevo endpoint en la vista de usuarios para obtener usuarios con rol de staff.
+              API de Usuarios:
+
+
+    CLIENT
+
+        * Se creó la función getStaffUsers para obtener todos los usuarios con el rol de staff.
+        
+            - Componente AssignStaffModal:
+
+            - Se implementó un nuevo modal para asignar tickets a usuarios con rol de staff.
+
+            - Se añadió lógica para manejar la selección de un usuario staff y se aseguró de que la lista se cargara correctamente al abrir el modal.
+
+            - Se agregó console.log para depurar la lista de usuarios.
+              
+              
+        * Depuración:
+
+            - Se realizaron pruebas y depuración para asegurar que los usuarios staff se carguen correctamente y se manejen adecuadamente en la interfaz.
+            Problemas Resueltos
+
+            - Se solucionó el problema de undefined en la lista de usuarios, asegurando que el API devuelva correctamente los datos de usuarios staff.
+
+            - Se mejoró la lógica de asignación de tickets, garantizando que solo los usuarios con el rol de staff puedan ser asignados.
+
+            Próximos Pasos
+            Continuar trabajando en la integración del sistema de asignación de tickets con el resto de la aplicación.
+            Probar la funcionalidad de asignación de tickets y realizar ajustes según sea necesario.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+Jueves 7/11/24
+
+
+
+Informe de Cambios
+
+
+    1. Componente AssignStaffModal
+        Integración de la API:
+        Se añadió la función updateAssignedStaff para permitir la actualización del usuario asignado a un ticket.
+        Manejo de Estado:
+        Se ajustó el estado selectedStaffId para inicializarse con el ID del staff actual.
+        Manejo de Asignación:
+        Se implementó el método handleAssign que obtiene la información del staff seleccionado y realiza la llamada a la API para actualizar la asignación del staff en el ticket.
+        Cerrar el Modal:
+        Se cierra el modal automáticamente tras realizar una asignación exitosa.
+
+
+    2. Componente TicketTechnicalDetailPage
+        Carga de Ticket:
+        Se implementó la lógica para cargar los datos del ticket específico, incluyendo su usuario asignado, al montarse el componente.
+        Manejo de Errores:
+        Se añadieron mensajes de error más descriptivos para mejorar la experiencia del usuario.
+        Integración del Modal:
+        Se pasó el objeto assigned_to al AssignStaffModal, permitiendo la selección y actualización del staff asignado.
+        Validación de Asignación:
+        Se aseguró que la asignación no se realice si no se selecciona un staff.
+
+
+    3. Lógica del update en TicketTechnicalView
+        No Actualizar Staff:
+        Se modificó la lógica de la función update para asegurarse de que el campo assigned_to no se actualice 
+        al editar el ticket, a menos que se realice explícitamente a través del nuevo endpoint update_assigned_staff.
+    
+
+    4. Nueva Función de API updateAssignedStaff
+        Endpoint para Actualizar Staff:
+        Se creó una función que realiza una llamada POST a la API para actualizar solo el usuario asignado a un ticket, manteniendo el resto de los datos del ticket sin cambios.
+        Problemas Identificados
+
+
+    Error de Acceso a assigned_to:
+        Se observó un error TypeError al intentar acceder a ticket.assigned_to cuando el ticket es nulo. Este problema se debe a la falta de verificación antes de intentar acceder a assigned_to.
+        Pasos a Seguir
+        Error de Acceso: Implementar una verificación para asegurarse de que ticket no sea nulo antes de intentar acceder a sus propiedades. Esto se puede hacer con una simple condicional para evitar el error.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Viernes 8/11/24
+
+
+
+Se soluciono y se implemento todo el flujo en el ticket technical 
+
+
+
+1. Modelo TicketTechnical
+
+    Estado de los Tickets: Se han definido las opciones de estado para los tickets, permitiendo los siguientes valores:
+
+    Sent
+    Received
+    In Process
+    Completed
+    Campos:
+
+    Se han añadido los campos:
+    delivery_date: Fecha de entrega del ticket.
+    datecompleted: Fecha de finalización, que se establece automáticamente si el estado es Completed.
+    Método clean:
+
+    Se han agregado validaciones para asegurar que:
+    La fecha de finalización (datecompleted) no sea anterior a la fecha de creación (created).
+    La fecha de entrega (delivery_date) no sea anterior a la fecha actual.
+    Método save:
+
+    Se establece un valor predeterminado para el estado en Sent si no se proporciona uno.
+    Se maneja la lógica para establecer datecompleted cuando el estado cambia a Completed.
+
+
+
+2. Modelo TicketTechnicalFile
+
+    Validación de Archivos:
+
+    Se ha implementado una función de validación para permitir solo ciertos tipos de archivos:
+    PDF, TXT, CSV, XLS y XLSX.
+    Almacenamiento de Nombre y Extensión:
+
+    Al guardar un archivo, se extraen y almacenan el nombre y la extensión del archivo en los campos correspondientes.
+
+
+
+3. API (ticketstechnical.api.js)
+
+    Funciones Implementadas:
+    Se han definido funciones para gestionar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para los tickets técnicos.
+    Se ha asegurado que el token de autenticación se envíe en el encabezado de cada solicitud.
+
+
+
+4. Componente TicketTechnicalEdit
+
+    Edición de Tickets:
+
+    Se implementó un formulario que permite a los usuarios editar los detalles del ticket, incluyendo:
+    Título
+    Descripción
+    Archivos adjuntos
+    Asignación de Personal:
+
+    Se ha agregado la capacidad de seleccionar un personal asignado al ticket, y el ID del personal se guarda en el formulario para su envío.
+    Gestión de Archivos:
+
+    Se permite la carga de archivos adicionales, así como la visualización de archivos existentes asociados al ticket.
+
+
+
+5. Página TicketTechnicalDetailPage
+
+    Cargar y Mostrar Datos:
+
+    La página ahora carga los datos del ticket técnico desde la API, mostrando toda la información relevante, incluyendo archivos adjuntos.
+    Funcionalidad de Actualización y Eliminación:
+
+    Se han implementado las funciones para actualizar y eliminar tickets con las validaciones correspondientes.
+
+
+
+6. Errores y Soluciones
+
+    Se reportó un error de tipo en el método clean relacionado con la comparación de fechas. Se implementaron verificaciones 
+    para asegurarse de que no se comparen valores None.
+    Conclusión
+    Todos los cambios relacionados con el modelo y la funcionalidad del ticket técnico han sido 
+    implementados y se encuentran en funcionamiento. Las validaciones y la lógica del negocio están configuradas para asegurar 
+    la integridad de los datos y la correcta gestión de los tickets. Si hay más cambios que se deben realizar o 
+    nuevas funcionalidades que implementar, por favor házmelo saber.
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+Reporte de Cambios Finales - 11/11/2024
+A continuación, se detallan los cambios realizados en el código hoy:
+
+
+1. Problema de Acceso a Propiedades de null
+
+    Se corrigió un error al intentar acceder a la propiedad status de un objeto ticket que inicialmente era null.
+    Se implementó una verificación para asegurar que el objeto ticket no sea null antes de intentar acceder a sus propiedades.
+
+
+2. Estado del Ticket: newStatus y Envío del Formulario
+
+    Se añadió un estado newStatus para controlar el valor del estado del ticket en el frontend.
+    Se incorporó un select que permite al usuario seleccionar un nuevo estado para el ticket.
+    El valor seleccionado en el select se agregó al FormData al momento de enviar el formulario, asegurando que el nuevo 
+    estado sea enviado correctamente al backend.
+
+
+3. Eliminación del Cambio de Fondo en el select
+
+    Se ajustaron las clases de Tailwind CSS para eliminar el efecto de cambio de fondo cuando el usuario recorre las opciones del select. 
+    Ahora, el select no muestra ningún cambio visual en el fondo al pasar el mouse sobre las opciones.
+
+
+4. Manejo de Errores y Confirmación de Estado
+
+    Se corrigió un error relacionado con la función updateTicketTechnical no definida, sustituyéndola por la función correcta 
+    (updateTicketConsolidated), que es la que actualiza los tickets consolidados.
+    Se actualizó la función handleStatusChange para utilizar la función correcta y enviar el nuevo estado del ticket al backend.
+
+
+5. Lógica de Redirección Post-Actualización
+
+    Después de actualizar un ticket, la redirección ahora depende del rol del usuario:
+    Superusuario: Redirige al perfil de administrador (/profile-admin).
+    Staff: Redirige al perfil de staff (/profile-staff).
+    Usuario Normal: Redirige al perfil de usuario común (/profile).
+
+
+6. Funcionalidad de Eliminación de Ticket
+
+    Se implementó un modal de confirmación antes de eliminar un ticket, asegurando que el usuario confirme la acción antes de que el ticket sea eliminado.
+    Tras la eliminación, el usuario es redirigido al perfil.
+
+
+7. Interfaz de Usuario Mejorada
+
+    Se mejoró el diseño para que los formularios y botones sean más coherentes con el estilo general de la aplicación.
+    Se mantuvo una disposición responsiva para asegurar que el diseño sea accesible en dispositivos móviles y escritorios.
+    Resumen de Funcionalidades y Cambios
+    Se añadió el estado newStatus para manejar la selección del nuevo estado del ticket.
+    Se eliminó el efecto de fondo en el select.
+    Se corrigió la función de actualización de tickets, utilizando la función correcta para los tickets consolidados.
+    Se mejoró la redirección post-actualización según el rol del usuario.
+    Se implementó una confirmación de eliminación antes de proceder con la acción.
+    Se optimizó la interfaz de usuario para garantizar consistencia en el diseño y mejor experiencia.
+    Conclusión: Los cambios realizados hoy proporcionan una mejor experiencia de usuario, mejorando la interacción con la gestión de estados de tickets y 
+    agregando nuevas funcionalidades, como la confirmación de eliminación y la redirección inteligente según el rol del usuario.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Martes 12/11/24
+
+
+1. Implementación de Filtro por Asignación en la Sección de Tickets
+
+   Se agregó un filtro en la sección "All Tickets" para mostrar únicamente los tickets no asignados. 
+   Los tickets asignados se movieron a la sección "Work Area - Assigned Tickets by Staff".
+
+2. Agrupación de Tickets por Staff en Work Area
+
+   En la sección "Work Area", los tickets asignados se agrupan por el miembro del staff responsable, 
+   permitiendo una organización más clara y accesible.
+
+3. División de Tickets por Estado en la Sección de Work Area
+
+   Los tickets asignados se dividen en tres columnas según su estado ("Received", "In Process" y 
+   "Completed") dentro de cada grupo de staff. Esto permite al administrador visualizar el 
+   progreso de los tickets asignados de manera más eficiente.
+
+4. Visualización de Nombre y Apellido del Staff en Work Area
+
+   En la sección "Work Area", se reemplazó el ID del staff con su nombre y apellido para 
+   mejorar la comprensión del reporte y facilitar la identificación de cada grupo de tickets.
+
+5. Ajuste de Margen en la Sección Work Area
+
+   Se agregó un margen adicional en la sección de "Work Area" para que el scroll mantenga 
+   la alineación con el resto de la interfaz, proporcionando una visualización más uniforme.
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Reporte de Cambios - Fecha: [Miercoles 13/11/24]
+
+Descripción del Proyecto: Aplicación de perfil de usuario para visualización de tickets, con funcionalidades de filtrado de tickets por estado y departamento, mostrando información del usuario y tickets asignados.
+
+Cambios Realizados:
+
+Filtrado de Tickets por Departamento (Sección 'Tickets in Your Department'):
+
+Se ajustó el filtrado en la sección de tickets por departamento para que muestre solo los tickets pertenecientes al departamento del usuario logueado.
+Se excluyeron los tickets del propio usuario logueado en esta sección para evitar duplicados.
+Filtrado por Estado de los Tickets en Work Area:
+
+Se añadió un filtro en la sección 'Work Area' para que se muestren únicamente los tickets con estados "Received", "In Process" y "Completed" del usuario logueado.
+Cada categoría de estado muestra únicamente los tickets correspondientes del usuario logueado, evitando así tickets de otros usuarios.
+Actualización en 'Tickets by Type' para Mostrar Solo los Tickets "Sent" del Usuario Logueado:
+
+En la sección 'Tickets by Type', se filtraron los tickets "Sent" para que solo aparezcan los tickets del usuario actual, agrupados por tipo (Technical, Facilities, Consolidated).
+Esta actualización asegura que se visualicen únicamente los tickets del usuario logueado en estado "Sent".
+Refactorización de la Lógica de Filtrado de Tickets:
+
+Se consolidó la obtención de tickets en un array allTickets, aplicando el filtro de departamento para separar los tickets del departamento y del usuario.
+Los tickets filtrados se organizan en las categorías y secciones correspondientes, mejorando la claridad de la estructura del código.
+Mejoras en la Organización Visual del Código y Componentes de Ticket:
+
+Se implementaron ajustes de organización en las vistas de tickets en grid de 3 columnas con un overflow-y-auto para permitir el scroll en secciones específicas y mejorar la usabilidad.
+Conclusión: Se ha finalizado la funcionalidad completa de visualización y filtrado de tickets, asegurando una experiencia de usuario clara y organizada según los requerimientos específicos de cada sección de tickets.
+
+
+
+
+Reporte de Cambios Finales - Modificaciones de Código
+
+Fecha: 2024-11-13
+
+1. **Creación de la Página de Perfil para Administradores (ProfileAdminPage):**
+   - Implementación de una nueva página de perfil para administradores con datos del usuario y secciones dedicadas a tickets asignados y no asignados.
+   - Filtrado de tickets sin asignar por categoría (técnicos, instalaciones, consolidados) en una sección para fácil revisión.
+   - Agrupación de tickets asignados por el staff y clasificación por estado (Recibidos, En Proceso, Completados).
+
+2. **Integración de Estado de Tickets "Sent":**
+   - Se agregó una columna en la sección de tickets asignados al staff dentro del área de trabajo. Ahora, los tickets en estado "Sent" se muestran junto con las otras categorías (Recibidos, En Proceso, Completados).
+
+3. **Conversión de Secciones a Estilo Spoiler:**
+   - La sección **Work Area - Assigned Tickets by Staff** se convirtió en un spoiler utilizando el componente `<details>` para permitir que esta sección se expanda y se colapse según sea necesario. Este cambio facilita la visualización al minimizar la cantidad de contenido visible de forma predeterminada.
+   - La sección **Work Area** original también fue envuelta en un `<details>` con estilo de spoiler, permitiendo que los tickets Recibidos, En Proceso, y Completados sean visibles solo cuando se expande la sección.
+
+4. **Mejoras Visuales y Consistencia de Estilos:**
+   - Ajustes visuales aplicados para mantener un diseño uniforme en todas las secciones nuevas y existentes.
+   - Uso de componentes `<summary>` para las secciones colapsables con clases de CSS consistentes (por ejemplo, `bg-gray-600 text-white hover:bg-gray-500`) para una mejor experiencia de usuario.
+
+Este reporte incluye todas las actualizaciones finales realizadas para mejorar la organización y visualización de los tickets en el perfil de administrador. Con estos cambios, el diseño permite una navegación más intuitiva y facilita la administración de tickets por parte del staff asignado.
+"""
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Reporte de Cambios Realizados
+
+1. Lógica de Permisos de Edición
+
+Se implementó una lógica de verificación de permisos para determinar si un usuario puede editar los tickets.
+Ahora, tanto los usuarios administradores como los usuarios con rol de staff pueden editar los tickets.
+En el caso de los creadores de los tickets, se añadió una verificación de coincidencia de user_id con el ID del usuario logueado para otorgar permisos de edición, asegurando que los creadores puedan acceder a sus propios tickets.
+2. Visualización Condicional en Tarjetas de Tickets
+
+Se actualizó la visualización en las tarjetas de los tickets (TicketConsolidatedCard, TicketFacilitiesCard, y TicketTechnicalCard) para mostrar información condicional basada en el rol del usuario:
+Para administradores, las tarjetas muestran únicamente el título, la descripción, y el staff asignado.
+Para usuarios no administradores, las tarjetas muestran todos los detalles, incluidos la fecha de creación, el usuario que generó el ticket, su departamento, y el estado.
+3. Control de Archivos Adjuntos
+
+Se implementó un control de acceso a los archivos adjuntos de los tickets, permitiendo que solo los usuarios con permisos de edición puedan descargar o ver los archivos adjuntos.
+Esta lógica se ha aplicado tanto en la vista de detalle como en la de edición, garantizando consistencia en el control de acceso a archivos.
+4. Ajuste de Comportamiento en Base a los Roles
+
+Se mejoró el comportamiento condicional en varios componentes para verificar el rol del usuario a través de localStorage, aplicando el filtro en la vista de edición y en los detalles de cada ticket.
+5. Mensajes de Consola y Depuración
+
+Se utilizó la consola para verificar el estado de los permisos (canEdit, isAdmin) en distintos puntos del flujo.
+Esto permitió identificar y corregir un problema con el user_id almacenado en localStorage, asegurando que el usuario logueado pueda ser identificado correctamente en la aplicación.
+6. Validación de Roles y Acceso en Edición
+
+Se ajustó el código para que, en el formulario de edición, solo los usuarios con permiso puedan agregar, eliminar o visualizar los archivos listados en los tickets.
+En caso de no tener permisos, el usuario visualiza solo el nombre de los archivos, sin opción de descarga.
+
+
+
+
+
+
+
+
+Reporte de Cambios - Fecha: [14 de noviembre, 2024]
+1. Adaptación de Tarjetas de Tickets para Roles Específicos
+Se implementó una lógica condicional en las tarjetas TicketConsolidatedCard, TicketFacilitiesCard y TicketTechnicalCard para mostrar campos específicos según el rol del usuario (Admin o Staff).
+Admin: Tiene acceso completo a los detalles, incluyendo el email del usuario, el email del staff asignado, y el campo "Assigned to".
+Staff: Se ocultan los campos de email, status del ticket y el campo "Assigned to".
+2. Expansión de Títulos y Descripciones
+Se implementó la funcionalidad de expansión en los títulos y descripciones de las tarjetas para mejorar la legibilidad:
+Título: Muestra los primeros 10 caracteres seguidos de tres puntos (...). Al hacer clic, se expande en bloques de 10 caracteres, manteniendo la integridad de las palabras.
+Descripción: Muestra los primeros 10 caracteres con puntos suspensivos (...). Al hacer clic, se revela el texto completo en su formato original, sin división por bloques.
+3. Control de Acceso en el Perfil Staff
+Se ajustaron los permisos en el perfil de usuarios con rol Staff para que solo se muestren los campos adecuados en las tarjetas dentro del área de trabajo (Work Area).
+Se ocultaron campos adicionales, como el email del usuario y del staff asignado en las tarjetas de tickets dentro de la sección de Work Area para usuarios con rol Staff.
+4. Estructura Modular para Lógica de Texto
+Se creó una función modular para dividir el texto en bloques sin cortar palabras. Esta función se aplicó a los títulos de todas las tarjetas, mejorando la consistencia y reutilización del código.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+Reporte de Cambios - 2024-11-15
+
+Cambios Realizados:
+
+Código de la Página TicketConsolidatedEdit:
+
+Actualización de la lógica del componente:
+Se mantuvo la estructura general y comportamiento del primer ejemplo proporcionado.
+Se agregó la funcionalidad para verificar si el usuario es admin (isAdmin) y si tiene permisos de edición (canEdit).
+Se ajustó la carga y asignación de los usuarios de tipo staff, utilizando el estado staffUsers para cargar estos usuarios y permitir la asignación del ticket a un staff específico.
+Se implementó la lógica para manejar la selección de staff con un select solo visible para administradores.
+Se mantuvo la lógica de carga de archivos seleccionados y la visualización de archivos existentes con un sistema de validación para evitar duplicados.
+Campos y Funciones del Formulario:
+
+Formulario de TicketConsolidatedEdit:
+Se aseguraron las validaciones de los campos title y description como requeridos.
+Se implementó la opción para cargar múltiples archivos y ver los archivos previamente cargados, con la capacidad de eliminarlos.
+El botón de "Crear" o "Actualizar" se muestra solo si el usuario tiene permisos para editar.
+Modificación de Funcionalidades de Archivos:
+
+Se mantuvo la funcionalidad de agregar nuevos archivos con la opción de seleccionarlos desde el dispositivo, mostrando los archivos cargados previamente.
+Se implementó la eliminación de archivos seleccionados antes de ser enviados, con la opción de removerlos de la lista de archivos seleccionados.
+Lógica de Asignación de Staff:
+
+Se implementó la función handleStaffChange, la cual obtiene los datos del usuario seleccionado para asignarlo al ticket y actualizar los valores en el formulario.
+Se garantizó la correcta asignación de un staff a un ticket solo si el usuario tiene permisos para hacerlo.
+Estructura del Componente:
+
+El código fue optimizado para asegurar la modularidad y mantenimiento a largo plazo, respetando las mejores prácticas.
+Se actualizó la interfaz de usuario para una mejor experiencia, con un diseño limpio y responsive.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+FIN PROYECTO , AHORA A PRUEBAS
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+3/12/24
+
+
+Reporte de Cambios: Filtro de Búsqueda de Clientes por Razón Social
+
+Objetivo del Cambio:
+- Implementar un filtro en el campo de búsqueda para mostrar solo los clientes cuya razón social comience con las letras ingresadas por el usuario.
+
+Detalles de los Cambios:
+
+1. Creación de Estado para la Búsqueda:
+   - Se ha añadido el estado `searchTerm` para almacenar el texto que el usuario escribe en el campo de búsqueda.
+   - Este estado se actualiza cada vez que el usuario ingresa un nuevo carácter.
+
+const [searchTerm, setSearchTerm] = useState("");  // Estado para el texto de búsqueda
+
+2. Efecto para Cargar los Clientes:
+   - Se ha utilizado el `useEffect` para cargar los datos de los clientes desde la API al montar el componente.
+   - La función `getAllCustomers()` se encarga de obtener los datos y guardarlos en el estado `customers`.
+
+useEffect(() => {
+    const loadCustomers = async () => {
+        try {
+            const response = await getAllCustomers(); // Obtener clientes de la API
+            setCustomers(response.data);  // Guardar los clientes en el estado
+        } catch (err) {
+            setError('Error al obtener los clientes');  // Manejar errores
+            console.error(err);
+        } finally {
+            setLoading(false);  // Finalizar estado de carga
+        }
+    };
+
+    loadCustomers();
+}, []); // El efecto se ejecuta solo una vez cuando el componente se monta
+
+3. Filtro en Tiempo Real (StartsWith):
+   - La función `handleSearchChange` se ha implementado para actualizar el `searchTerm` y filtrar los clientes que **comienzan** con el texto ingresado.
+   - Se usa el método `startsWith()` para asegurarse de que solo se muestren los clientes cuya razón social empiece con el texto ingresado, haciendo la búsqueda insensible a mayúsculas/minúsculas con `toLowerCase()`.
+
+const handleSearchChange = (e) => {
+    const term = e.target.value;
+    setSearchTerm(term);  // Actualiza el término de búsqueda
+
+    // Filtrar clientes que empiezan con el término de búsqueda
+    const results = customers.filter(customer =>
+        customer.razon_social.toLowerCase().startsWith(term.toLowerCase())
+    );
+    setFilteredCustomers(results);  // Actualizar la lista filtrada
+};
+
+4. Condición para Mostrar los Clientes Filtrados:
+   - Se han agregado condiciones para que solo se muestren los `CustomerCard` cuando el texto ingresado (`searchTerm`) coincide con la razón social de los clientes. Si no hay coincidencias, se muestra un mensaje indicando que no se encontraron clientes.
+
+{/* Mostrar solo si hay un término de búsqueda y clientes filtrados */}
+{searchTerm && filteredCustomers.length > 0 ? (
+    <div className="grid grid-cols-3 gap-3 w-2/3">
+        {filteredCustomers.map((customer) => (
+            <CustomerCard key={customer.id} customer={customer} />  // Mostrar solo los que coinciden
+        ))}
+    </div>
+) : (
+    // Mensaje si no hay coincidencias
+    searchTerm && <p>No se encontraron clientes que coincidan con la búsqueda.</p>
+)}
+
+5. Comportamiento de la Interfaz:
+   - **Campo de búsqueda**: Aparece al inicio de la interfaz y permite al usuario escribir para filtrar clientes.
+   - **Clientes filtrados**: Se actualizan en tiempo real y solo muestran los clientes cuya razón social empieza con las letras escritas en el campo de búsqueda.
+   - **Mensaje de error**: Si no se encuentran clientes que coincidan con el filtro, se muestra el mensaje "No se encontraron clientes que coincidan con la búsqueda".
+   - **Carga de datos**: Mientras los datos se están cargando desde la API, se muestra un mensaje de "Cargando clientes...".
+
+6. Mejora en la Experiencia de Usuario:
+   - Al escribir el primer carácter, el sistema filtra y muestra los clientes correspondientes sin necesidad de presionar un botón de búsqueda, haciendo el proceso más ágil.
+   - Solo se muestran las tarjetas (`CustomerCard`) de los clientes que cumplen con el filtro, mejorando la eficiencia visual.
+
+Resumen Final del Flujo:
+1. Carga de Clientes: Se cargan los clientes desde la API al montar el componente `CustomerList`.
+2. Búsqueda en Tiempo Real: El campo de búsqueda permite al usuario filtrar clientes por la razón social, mostrándolos solo si su nombre comienza con las letras ingresadas.
+3. Visualización: Si se encuentran coincidencias, se muestran las tarjetas de clientes; si no, se muestra un mensaje de "No se encontraron clientes".
+4. Interacción: Los resultados se actualizan en tiempo real a medida que el usuario escribe en el campo de búsqueda, optimizando la experiencia de búsqueda.
+
+Lecciones Aprendidas:
+- La implementación de `startsWith()` permite una búsqueda precisa de clientes que coinciden desde el principio del nombre, lo que mejora la relevancia de los resultados.
+- El manejo eficiente del estado con `useState` y el uso de `useEffect` para la carga de datos ayuda a mantener la interfaz reactiva y bien organizada.
+- El uso de un filtro en tiempo real sin necesidad de un botón de envío mejora la interacción con el usuario.
+
+Recuerda guardar este reporte como referencia para futuras implementaciones o mejoras en la funcionalidad de búsqueda.
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Reporte de Cambios - Ticket Voucher
+
+Fecha de modificación: 5 de diciembre de 2024
+
+Cambios realizados:
+
+Página de detalles del Ticket Voucher (TicketVoucherDetailPage):
+
+Se integró una nueva funcionalidad para cargar y gestionar los clientes asociados al ticket. Ahora, los clientes se cargan desde la API getAllCustomers y se almacenan en el estado customers.
+Se añadió un nuevo estado selectedCustomers para almacenar los clientes seleccionados que están asociados al ticket.
+Se mejoró el proceso de exportación de los clientes seleccionados a un archivo Excel utilizando la biblioteca XLSX. Se agregó la función generateExcel, que toma los clientes seleccionados y genera un archivo Excel con la información relevante (razón social, CUIT, clave AFIP, etc.).
+Se implementó un useEffect que escucha los cambios en selectedCustomers para reflejar los clientes actualmente seleccionados.
+La lista de clientes asociados al ticket se muestra en la interfaz con la posibilidad de descargarlos en formato Excel.
+Edición de Ticket Voucher (TicketVoucherEdit):
+
+Se agregó una nueva lógica para inicializar el estado selectedCustomers en el componente de edición cuando los clientes cambian.
+Se hizo un cambio para verificar si el usuario tiene permisos de edición, dependiendo de su rol (superusuario, staff o creador del ticket).
+La lista de usuarios de tipo staff se carga mediante la función loadStaffUsers para asignar un usuario al ticket.
+Se añadió lógica para actualizar el estado canEdit en función de los permisos del usuario, para permitir o denegar la edición de ciertos campos.
+Se ajustó el formulario para que refleje los cambios y el comportamiento de los archivos adjuntos, permitiendo la adición y eliminación de archivos a través de un formulario.
+Generación de Excel:
+
+En la página de detalles del ticket, se implementó la función generateExcel para exportar la lista de clientes seleccionados a un archivo Excel.
+La función recoge los datos necesarios de cada cliente (razón social, CUIT, etc.) y los convierte en un archivo Excel descargable.
+Manejo de clientes seleccionados:
+
+Se integró la lógica para que la selección de los clientes a través de un formulario o lista esté vinculada con el estado selectedCustomers, permitiendo seleccionar y almacenar los clientes asociados a un ticket.
+El estado selectedCustomers se pasa como prop tanto en el componente de detalles como en el de edición del ticket.
+Funcionalidad de archivo adjunto:
+
+Se agregó la opción para cargar y eliminar archivos adjuntos asociados al ticket desde la página de detalles, reflejando las modificaciones en el formulario de edición del ticket.
+Mejoras en la gestión de permisos:
+
+Se mejoró la validación de permisos para la edición del ticket, con un enfoque específico en usuarios superadministradores y el creador del ticket.
+Se hizo un ajuste para verificar si el usuario tiene permisos para ver o modificar ciertos campos, como el campo de observaciones o el estado del ticket.
+Interfaz de usuario:
+
+Se optimizó la presentación de los clientes asociados al ticket, mostrando correctamente la lista de clientes y ofreciendo la opción de exportarlos en un archivo Excel.
+Se mejoró la sección de archivos adjuntos, mostrando enlaces a los archivos solo si el usuario tiene permisos para verlos o descargarlos.
+Lecciones aprendidas:
+
+La integración de datos de clientes con tickets requiere una gestión cuidadosa del estado, especialmente cuando se trata de permitir la selección de múltiples elementos.
+Es importante manejar los permisos de usuario de forma precisa para garantizar que solo los usuarios autorizados puedan modificar o ver ciertos datos del ticket.
+La generación de archivos Excel es una funcionalidad útil para exportar datos seleccionados y puede ser implementada de manera efectiva usando bibliotecas como XLSX.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Viernes 20/12/24
+
+Implementacion de pseudo base de datos de clientes en formato JSON (Excelente trabajo)
+
+
+Reporte de Cambios Finales
+1. Ajustes en el envío del JSON del cliente (frontend)
+Modificación del onSubmit:
+Se cambió la lógica para unificar los clientes seleccionados en un solo campo client_data en el FormData:
+
+javascript
+Copiar código
+formData.append("client_data", JSON.stringify(selectedClients));
+Objetivo:
+Evitar enviar clientes de manera indexada y permitir que el backend reciba un solo JSON completo.
+
+2. Transformación del JSON en el Backend
+perform_create modificado: Se implementó lógica para:
+
+Usar el valor de razon_social como clave principal para cada objeto en el campo client_data.
+Mantener razon_social dentro de los atributos del objeto.
+python
+Copiar código
+transformed_client_data = {
+    cliente["razon_social"]: {
+        "razon_social": cliente["razon_social"],
+        **cliente
+    }
+    for cliente in client_data_json
+}
+Ejemplo de transformación: Entrada original:
+
+json
+Copiar código
+[
+    {"razon_social": "AMATO HUGO ANDRES", "cuit_acceso": "20-32573731-0"},
+    {"razon_social": "BOGGIO ANDREA MARIA CRISTIN", "cuit_acceso": "27-14317321-1"}
+]
+Resultado final en el campo client_data:
+
+json
+Copiar código
+{
+    "AMATO HUGO ANDRES": {
+        "razon_social": "AMATO HUGO ANDRES",
+        "cuit_acceso": "20-32573731-0"
+    },
+    "BOGGIO ANDREA MARIA CRISTIN": {
+        "razon_social": "BOGGIO ANDREA MARIA CRISTIN",
+        "cuit_acceso": "27-14317321-1"
+    }
+}
+Objetivo:
+Facilitar el acceso a los datos en el campo client_data utilizando razon_social como clave.
+
+3. Depuración y Verificación
+Se añadieron logs en el backend para confirmar la recepción y transformación correcta de client_data.
+En el frontend, se imprimió el FormData en la consola para verificar que los datos se envían correctamente.
+Resultado General
+Los datos del cliente ahora se envían correctamente desde el frontend.
+En el backend, el campo client_data se guarda con razon_social como clave y manteniendo todos los atributos internos.
+La estructura final es fácil de acceder y trabajar en futuras implementaciones.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Reporte de Cambios - Proyecto Plataforma de Tickets
+
+Fecha: [Fecha Actual]
+
+1. **Previsualización de Archivos y Clientes en el Formulario**
+   - Se implementó una sección en el formulario para previsualizar los archivos y clientes seleccionados antes de enviarlos.
+   - Se añadió la funcionalidad de eliminar tanto archivos como clientes de sus respectivas listas.
+
+2. **Solución al Envío Involuntario del Formulario**
+   - Se corrigió el comportamiento en los botones "X" que disparaban el envío del formulario.
+   - Se utilizó `type="button"` en los botones para evitar que se comporten como `submit`.
+
+3. **Botón para Eliminar Archivos**
+   - Se añadió la función `removeFile`:
+     ```javascript
+     const removeFile = (index) => {
+         setSelectedFiles((prevFiles) => prevFiles.filter((_, i) => i !== index));
+         toast.success("Archivo eliminado de la lista.");
+     };
+     ```
+
+4. **Botón para Eliminar Clientes**
+   - Se añadió la función `removeClient`:
+     ```javascript
+     const removeClient = (index) => {
+         setSelectedClients((prevClients) => prevClients.filter((_, i) => i !== index));
+         toast.success("Cliente eliminado de la lista.");
+     };
+     ```
+
+5. **Lógica Dinámica para Manejo de Archivos y Clientes**
+   - Ambos botones permiten actualizar las listas dinámicamente.
+   - Se verificó que el formulario no se envía automáticamente al interactuar con los botones.
+
+6. **Resultados Esperados**
+   - Los usuarios ahora pueden gestionar tanto archivos como clientes seleccionados en el formulario de manera eficiente y sin errores de envío accidental.
+
+¡Gran trabajo! Los cambios de hoy mejoraron significativamente la usabilidad y robustez del formulario.
+"""...
