@@ -33,7 +33,6 @@ jobs:
 
       # Paso 4: Ejecutar migraciones y recopilar archivos estáticos
       - name: Run migrations and collect static files
-        working-directory: back
         run: |
           python manage.py migrate
           python manage.py collectstatic --noinput
