@@ -210,7 +210,20 @@ TOKEN_EXPIRATION_TIME = timedelta(hours=1)
 
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'smart-tk.azurewebsites.net',
+    'www.smart-tk.azurewebsites.net',  # Si aplica
+    # Otros dominios si los tienes
+]
+
+# settings.py
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://smart-tk.azurewebsites.net',
+    'https://www.smart-tk.azurewebsites.net',  # Si aplica
+    # Otros orígenes si los tienes
+]
+
 
 
 
