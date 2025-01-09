@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent  # Ajusta si es necesario
 SECRET_KEY = '11^ogs4n95#8qlslfg=6p(r40582wuz07oe)8zm8*=usu=*%-v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 
