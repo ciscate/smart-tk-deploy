@@ -120,7 +120,11 @@ DATABASES = {
 
 SECURE_SSL_REDIRECT = False
 
-CORS_ALLOW_ALL_ORIGINS = True  # O especifica los orígenes permitidos
+# Configuraciones de CORS
+CORS_ALLOWED_ORIGINS = [
+    "https://smart-tk.azurewebsites.net",
+    # Añade otros orígenes permitidos si es necesario
+]
 
 
 
